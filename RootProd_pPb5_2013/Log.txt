@@ -1,0 +1,2188 @@
+217946 : 0 
+217948 : 255 
+217999 : 0 
+218006 : 255 
+218035 : 255 
+218036 : 255 
+217946 : 0 
+217948 : 0 
+217999 : 0 
+218006 : 0 
+218035 : 0 
+218036 : 0 
+217946 : 0 
+217948 : 0 
+217999 : 0 
+218006 : 0 
+218035 : 0 
+218036 : 0 
+217946 : 0 
+217948 : 0 
+217999 : 0 
+218006 : 0 
+218035 : 0 
+218036 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218223 : 0 
+218224 : 0 
+218279 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 255 
+218473 : 255 
+218527 : 255 
+218536 : 255 
+218589 : 255 
+218677 : 255 
+218679 : 255 
+218716 : 255 
+218751 : 255 
+218771 : 255 
+218783 : 255 
+218829 : 255 
+218898 : 255 
+218940 : 255 
+218968 : 255 
+219001 : 255 
+219028 : 255 
+219039 : 255 
+219055 : 255 
+219089 : 255 
+219111 : 255 
+219114 : 255 
+218436 : 0 
+218473 : 0 
+218527 : 0 
+218536 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219039 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 255 
+218436 : 0 
+218473 : 0 
+218527 : 0 
+218536 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219039 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 255 
+218536 : 0 
+218536 : 0 
+218536 : 0 
+217946 : 0 
+217948 : 0 
+217999 : 0 
+218006 : 0 
+218035 : 0 
+218036 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218223 : 0 
+218224 : 0 
+218279 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218527 : 0 
+218536 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219039 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 255 
+217946 : 0 
+217946 : 0 
+217948 : 0 
+217999 : 0 
+218006 : 0 
+218035 : 0 
+218036 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218223 : 0 
+218224 : 0 
+218279 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+217999 : 255 
+217999 : 0 
+217999 : 0 
+217946 : 0 
+217948 : 0 
+218006 : 0 
+218035 : 0 
+218036 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218223 : 255 
+218224 : 0 
+218279 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218527 : 0 
+218536 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219039 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+218436 : 0 
+217999 : 0 
+218222 : 0 
+218301 : 0 
+218677 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+218006 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218679 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219114 : 0 
+218771 : 0 
+218968 : 255 
+219001 : 0 
+219028 : 0 
+219089 : 0 
+218968 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+218048 : 127 
+218048 : 127 
+218048 : 10 
+218048 : 0 
+218301 : 10 
+218436 : 10 
+218716 : 10 
+218771 : 10 
+218829 : 10 
+218301 : 0 
+218436 : 0 
+218716 : 0 
+218771 : 0 
+218829 : 0 
+218968 : 0 
+219089 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219111 : 0 
+219114 : 0 
+219001 : 2 
+219001 : 2 
+219001 : 0 
+218898 : 0 
+218589 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 255 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+218024 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 255 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 255 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+218168 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 10 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+218168 : 0 
+217999 : 0 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+217999 : 10 
+217999 : 10 
+217999 : 0 
+218006 : 10 
+218006 : 10 
+218006 : 127 
+218006 : 10 
+218006 : 0 
+218024 : 0 
+218048 : 0 
+218118 : 0 
+218168 : 0 
+218179 : 0 
+218197 : 0 
+218213 : 0 
+218222 : 0 
+218301 : 0 
+218338 : 0 
+218391 : 0 
+218436 : 0 
+218473 : 0 
+218589 : 0 
+218677 : 0 
+218679 : 0 
+218716 : 0 
+218751 : 0 
+218771 : 0 
+218783 : 0 
+218829 : 0 
+218898 : 0 
+218940 : 0 
+218968 : 0 
+219001 : 0 
+219028 : 0 
+219055 : 0 
+219089 : 0 
+219111 : 0 
+219114 : 0 
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip large file ./.__afs6B07:12218465B>1048576B
+  skip large file ./.__afs9A19:3922098B>1048576B
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so
+  skip root file ./PDST.root
+  skip ['.o', '.a', '.so'] ./extractor_C.so
+  skip large file ./container.txt:1878214B>1048576B
+  skip ['.o', '.a', '.so'] ./CombineTriggers_C.so

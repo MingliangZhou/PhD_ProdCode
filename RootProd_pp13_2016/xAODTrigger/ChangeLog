@@ -1,0 +1,380 @@
+2016-06-17 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Added a collection proxy for xAOD::TrigPassBitsContainer. The
+	  lack of which produced some "semi-corrupt" files unfortunately.
+	* Tagging as xAODTrigger-00-00-52
+
+2016-05-03 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Taught the package how to build itself in standalone
+	  mode with CMake.
+	* Tagging as xAODTrigger-00-00-51
+
+2016-04-19 Alan Watson <Alan.Watson@CERN.CH>
+        * EnergySumRoI: schema evolution to _v2. Adds restricted eta
+	  results to RoI.
+	* Tag as xAODTrigger-00-00-50
+
+2015-12-01 Alan Watson <Alan.Watson@CERN.CH>
+        * Root/EnergySumRoI_v1.cxx: fix bug in overflow reporting
+	* Tag as xAODTrigger-00-00-49
+
+2015-11-25 Will Buttinger <will@cern.ch>
+	* Root/xAODTriggerCLIDs.cxx: Added JetEtROI missing classes
+	* Tagging xAODTrigger-00-00-48
+
+2015-11-24 sutt < sutt @ cern.ch >
+	* xAODTrigger-00-00-47
+	M       xAODTrigger/versions/RoiDescriptorStoreAuxInfo_v1.h
+	* fix RoiDescriptorStorageAuxInfo
+
+2015-11-23 sutt < sutt @ cern.ch >
+	* xAODTrigger-00-00-46
+	M       xAODTrigger/selection.xml
+	A       xAODTrigger/versions/RoiDescriptorStoreAuxInfo_v1.h
+	A       xAODTrigger/versions/RoiDescriptorStore_v1.h
+	A       xAODTrigger/RoiDescriptorStoreAuxInfo.h
+	A       xAODTrigger/RoiDescriptorStore.h
+	M       xAODTrigger/xAODTriggerDict.h
+	M       Root/xAODTriggerCLIDs.cxx
+	A       Root/RoiDescriptorStoreAuxInfo_v1.cxx
+	A       Root/RoiDescriptorStore_v1.cxx
+	* add RoiDescriptorStore
+
+2015-10-28 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Declared a CLID for xAOD::TrigPassBits as well, as it's needed
+	  by the navigation when attaching it. Even if only the container
+	  is recorded into StoreGate.
+	* Tagging as xAODTrigger-00-00-45
+
+2015-10-28 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Removed the DataLink code from TrigPassBits, as we agreed that
+	  the uniquie key of the object would be coming from the navigation
+	  instead. (We would use the subTypeIndex variable.)
+	* Created an xAOD::makeTrigPassBits function, which is much like
+	  the HLT::makeTrigPassBits function, just making use of some nice
+	  new C++11 coding.
+	* Updated the unit test to check the behaviour of the new code.
+	* Tagging as xAODTrigger-00-00-44
+
+2015-10-27 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Extended xAOD::TrigPassBits to hold on to the CLID, and some
+	  sort of hashed key of the target container that it describes.
+	  This key right now tries to store the hashed key provided by
+	  StoreGate. But we may want to use some custom hashing for the
+	  object labels in the navigation instead.
+	* In either case, the persistent information should look like
+	  this.
+	* Tagging as xAODTrigger-00-00-43
+
+2015-10-23 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Added a new class, xAOD::TrigPassBits. Based (of course) on the
+	  old TrigPassBits class.
+	* Added a unit test for the type, to make sure that the basic bit
+	  operations implemented in it are functional.
+	* Enabled pedantic compilation with RootCore.
+	* Tagging as xAODTrigger-00-00-42
+
+2015-07-16 Will Buttinger <will@cern.ch>
+	* Added Root/xAODTriggerCLIDs.cxx to get CLIDs detected at compile time
+	* Tagging as xAODTrigger-00-00-41
+
+2015-07-03 Attila Krasznahorkay <Attila.Kraszmahorkay@cern.ch>
+	* Explicitly initialising all primitive variables in all the
+	  AuxInfo classes now.
+	* This is to avoid irreproducibility issues with these types.
+	* Tagging as xAODTrigger-00-00-40
+
+2015-04-01 Attila Krasznahorkay <Attila.Kraszmahorkay@cern.ch>
+	* Trying to fix the memory leak reported in ATR-10698.
+	* Unfortunately this tag is not compativble with the
+	  AtlasProduction-20.1.X.Y caches, so couldn't test the
+	  code yet. That test will happen in 00-00-35-branch.
+	* Tagging as xAODTrigger-00-00-39
+
+2015-03-09 Attila Krasznahorkay <Attila.Kraszmahorkay@cern.ch>
+	* Fixed Coverity bug #25111. It was a serious problem, but
+	  luckily in a piece of code that was inactive. Still, it was good
+	  that Coverity found the issue.
+	* Tagging as xAODTrigger-00-00-38
+
+2015-02-16 Attila Krasznahorkay <Attila.Kraszmahorkay@cern.ch>
+	* Fixed a bug in TriggerMenu_v1::chainSignatureLogicsAvailable(),
+	  because it was asking for "its variable" with the wrong type.
+	* Tagging as xAODTrigger-00-00-37
+
+2015-02-11 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Added name()/setName() functions to ByteStreamAuxContainer_v1,
+	  to disable the warnings coming from the variable access monitoring
+	  code in AnalysisBase.
+	* Re-ordered the function implementations in ByteStreamAuxContainer_v1.cxx
+	  to correspond to the order in which the functions are declared in the
+	  header file.
+	* Tagging as xAODTrigger-00-00-36
+
+2014-12-18 Lukas Heinrich <lukas.heinrich@cern.ch>
+	* short-term (hopefully fix) to get MenAuxContainer retrieval to work (ATR-9711)
+	* tag as xAODTrigger-00-00-35
+
+2014-12-17 Lukas Heinrich <lukas.heinrich@cern.ch>
+	* SG_BASE macro for TriggerMenuAuxContainer
+	* tag as xAODTrigger-00-00-34
+
+2014-12-q0 Alan Watson <Alan.Watson@CERN.CH>
+        * _v2 versions of EmTauRoI, JetRoI
+	* Bugfix in EmTauRoI RoIword format checking.
+	* Separate ET scales for Run 2 RoIs
+	* Tag as xAODTrigger-00-00-33
+
+2014-12-09  scott snyder  <snyder@bnl.gov>
+	* Tagging xAODTrigger-00-00-32.
+	* Root/JetEtRoIAuxInfo_v1.cxx: Fix uninitialized variable.
+
+2014-12-05 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Declared ByteStreamAuxContainer_v1::m_tick as transient. This
+	  variable was forgotten about by mistake...
+	* Tagging as xAODTrigger-00-00-31
+
+2014-12-01 Joerg Stelzer <stelzer@cern.ch>
+	* Add CLID to JetRoI, EmTauRoI, MuonRoI
+	* Tagging as xAODTrigger-00-00-30
+
+2014-11-27 Lukas Heinrich <lukas.heinrich@cern.ch>
+	* extended menu types to include signature and sequence info
+	* Tagging as xAODTrigger-00-00-29
+
+2014-11-26 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Merged the changes into the trunk of the package, to be able
+	  to collect it into a nightly.
+	* Tagging as xAODTrigger-00-00-28
+
+2014-11-26 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Rewrote the code quite a bit after a short exchange with
+	  Tomasz.
+	* Added a CLID for xAOD::TrigComposite.
+	* Added a unit test for the new code.
+
+2014-11-26 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Made a test implementation for handing links to HLT objects
+	  in xAOD::TrigComposite.
+	* To be discussed in trigger core sw...
+
+2014-11-26 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Before making any changes to xAOD::TrigComposite, cleaned up
+	  the modifications from Gordon.
+	* Set the svn:keywords property on the files that didn't have
+	  it set yet.
+	* Removed the hscript.yml file. Hwaf is not coming back any time
+	  soon.
+	* Tagging as xAODTrigger-00-00-27
+
+2014-11-13  scott snyder  <snyder@bnl.gov>
+
+	* Merging changees from xAODTrigger-00-00-25-01:
+	* xAODTrigger/versions/EmTauRoIContainer_v1.h,
+	xAODTrigger/versions/MuonRoIContainer_v1.h: Add SG_BASE
+	declarations.
+
+2014-11-03 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Adding a first stab at code identifying the different types
+	  of EmTauRoI-s. Not tested at all yet.
+	* Not tagging because of this just yet.
+
+2014-09-10 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Applying the fix from xAODTrigger-00-00-20-branch.
+	  (Typos in EnergySumRoI_v1.cxx.)
+	* Attaching a custom collection proxy to BunchConfContainer_v1.
+	  Very strange that this didn't bite me before...
+	* Tagging as xAODTrigger-00-00-25
+
+2014-08-28 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Added the first version of TrigNavigation_v1. (Thanks Tomasz!)
+	* Updated all the header files to take CLASS_DEF.h and
+	  BaseInfo.h from xAODCore rather than SGTools. Simplifying
+	  the headers this way.
+	* Tagging as xAODTrigger-00-00-24
+
+2014-08-11  scott snyder  <snyder@bnl.gov>
+
+	* Tagging xAODTrigger-00-00-23.
+	* Root/ByteStreamAuxContainer_v1.cxx (size): Fix vector bounds
+	checks.
+
+2014-07-23  scott snyder  <snyder@bnl.gov>
+
+	* Tagging xAODTrigger-00-00-22.
+	* xAODTrigger/versions/ByteStreamAuxContainer_v1.h,
+	Root/ByteStreamAuxContainer_v1.cxx: Add size().
+
+2014-06-12  scott snyder  <snyder@bnl.gov>
+
+	* Tagging xAODTrigger-00-00-21.
+	* xAODTrigger/versions/ByteStreamAuxContainer_v1.h,
+	xAODTrigger/versions/ByteStreamAuxContainer_v1.icc,
+	Root/ByteStreamAuxContainer_v1.cxx: Implement decoration
+	interfaces.  Fix problem with getting auxid set correct when this
+	object is read from a file.  Thread-safety fixes.
+	* xAODTrigger/selection.xml: Updated.
+	* cmt/requirements: Update dependencies.
+
+2014-04-09  Arantxa Ruiz Martinez  <aranzazu.ruiz.martinez@cern.ch>
+	* Moved calorimeter trigger classes (TrigCaloCluster and TrigEMCluster)
+	  to new xAODTrigCalo package
+	* Tagging as xAODTrigger-00-00-20
+
+2014-04-08 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Could remove some of the exclusion rules after the recent
+	  bugfixes in rootcling, but not all of them.
+	* Tagging as xAODTrigger-00-00-19
+
+2014-04-05 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Changed the name of GCCXML_DUMMY_INSTANTIATION to
+	  a more unique name in the dictionary header. Was necessary,
+	  as rootcling is complaining about seeing the same struct name
+	  in multiple libraries. (Which really shouldn't clash actually,
+	  but let's do this until ROOT 6 stops complaining about this.)
+	* Tagging as xAODTrigger-00-00-18
+
+2014-04-05 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Making the dictionary generation work correctly with ROOT 6.
+	* Temporarily excluding a number of classes in selection.xml
+	  until rootcling learns not to want to generate a dictionary for
+	  every class that it encounters. :-P
+	* Tagging as xAODTrigger-00-00-17
+
+2014-02-14 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Added a set of classes for saving the bunch configuration
+	  metadata in a ROOT-readable way into the xAOD. While the
+	  trigger configuration's bunch-group information is
+	  available in xAOD::TriggerMenu already, we often get the
+	  bunch configuration from another place. (For instance for
+	  MC files.)
+	* Only basic tests done so far.
+	* Tagging as xAODTrigger-00-00-16
+
+2014-02-12 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Re-implemented xAOD::TriggerMenu and its siblings. Now the
+	  class is much more flat, allowing for trigger menu slimming
+	  in the DxAOD files if needed.
+	* Added bunch group information to xAOD::TriggerMenu. Added
+	  just enough information that BunchCrossingTool would be
+	  able to initialise itself from it.
+	* Tagging as xAODTrigger-00-00-15
+
+2014-02-06 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Adding HLT decision information to xAOD::TrigDecision_v1.
+	* The design is that we would save 5 bits for the first N
+	  (1024?) chains per trigger level. This seems to use
+	  (togeteher with the LVL1 branches) ~0.176 kB per event
+	  on a ttbar MC12 file. Seems reasonable for the full
+	  trigger decision. (Can be slimmed to a fraction of its size
+	  in case the user is not interested in some details.)
+	* Remember though that this implementation is not storing
+	  any information about the trigger navigation. That will come
+	  in a different class.
+	* Tagging as xAODTrigger-00-00-14
+
+2014-01-24 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Updated the TrigComposite code a bit more to my liking.
+	* This meant the first real-world usage of
+	  ByteStreamAuxContainer_v1, uncovering a number of issues with
+	  the class's implementation.
+	* The code can now be used in some simple standalone examples.
+	* Tagging as xAODTrigger-00-00-13
+
+2014-01-24 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Migrated the package to compile with RootCore.
+	* No other code changes done for the moment, some TrigComposite
+	  manipulation is still to come.
+	* Not tagging for now.
+
+2014-01-23 Tomasz Bold
+	* further additions for TrigComposite
+
+2014-01-16 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Fixing a silly typo in xAOD::TriggerMenu. The word "passthrough"
+	  is hard... :-P
+	* Tagging as xAODTrigger-00-00-12
+
+2014-01-15 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Removed the prescale key variables from the trigger decision
+	  classes. It does make sense that they were not part of
+	  TrigDec::TrigDecision either.
+	* In order to find the correct configuration describing the current
+	  event, introduced a new, extremely simple class: TrigConfKeys.
+	  This will be created/handled in the to-be-created TrigConfigSvcxAOD
+	  package. (Together with xAOD::TriggerMenu.)
+	* Tagging as xAODTrigger-00-00-11
+
+2014-01-14 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Added a first (partial) implementation for xAOD::TrigDecision.
+	  It just handles the LVL1 decision for the moment.
+	* Added some missing SG_BASE(...) statements to the classes.
+	* Tagging as xAODTrigger-00-00-10
+
+2013-12-09 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Revised the RoI class implementations, making some simplifications
+	  that we never got to do during Run 1.
+	* The energy-sum and jet-ET RoIs are no longer stored in a container,
+	  but just on their own. (As we did in the D3PDs already.)
+	* Removed the redundant information from the classes which were kept
+	  as purely transient data in case of the AOD classes.
+	* Removed some "primitive" dictionaries from the package that should
+	  be generated in some other place (xAODCore) if really needed.
+	* Created a collection proxy for all the RoI containers.
+	* Added some documentation to the RoI classes.
+	* Tagging as xAODTrigger-00-00-09
+
+2013-12-06 Lukas Heinrich <lukas.heinrich@cern.ch>
+        * remaining ROI types converted to xAOD
+
+2013-12-04 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Making the code compile standalone on MacOS X.
+	* Tagging as xAODTrigger-00-00-08
+
+2013-11-28 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Added a CLID for TriggerMenuAuxContainer_v1.
+	* Added some missing dictionaries for writing the trigger configuration
+	  into an xAOD file.
+	* Removed the usage of MsgStream from the cluster classes.
+	* Tagging as xAODTrigger-00-00-07
+
+2013-11-28  Aranzazu Ruiz Martinez  <aranzazu.ruiz.martinez@cern.ch>
+	* First implementation of TrigCaloCluster and TrigEMCluster
+	* Tagging as xAODTrigger-00-00-06
+
+2013-11-27 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Implementing a bunch of missing functions in TriggerMenu_v1.
+	* Tagging as xAODTrigger-00-00-05
+
+2013-11-27 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Introduced a new class, TriggerMenu_v1, that should/could describe
+	  the trigger configuration as ROOT-readable metadata in the xAOD
+	  files.
+	* Disabled the dictionary building for Muon_ROI_v1, as Lukas forgot to
+	  check in the source files belonging to this class. The class will
+	  be renamed anyway, so oh well...
+	* Didn't do any I/O tests yet, just tried to compile the code using
+	  hwaf.
+	* Tagging as xAODTrigger-00-00-04
+
+2013-11-25 Lukas Heinrich <lukas.heinrich@cern.ch>
+	* Added first implementation of Muon_ROI as xAOD object
+	* code tested with private AOD->xAOD converter
+
+2013-11-15  Sebastien Binet  <binet@farnsworth>
+
+	* tagging xAODTrigger-00-00-03
+	* hwafize (really add hscript)
+	* A hscript
+
+2013-11-14  Sebastien Binet  <binet@farnsworth>
+
+	* tagging xAODTrigger-00-00-02
+	* hwafize
+	* A hscript
+
+2013-11-14 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Moved the ByteStreamAuxContainer_v1 class from xAODCore to this
+	  package.
+	* The code is wildly untested, but it does compile at least.
+	* Will add an hwaf compilation description later on.
+	* Tagging as xAODTrigger-00-00-01

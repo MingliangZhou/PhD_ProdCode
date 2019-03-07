@@ -1,0 +1,17 @@
+// $Id$
+
+// Local include(s):
+#include "xAODTrigger/versions/TrigPassBitsAuxContainer_v1.h"
+
+namespace xAOD {
+
+   TrigPassBitsAuxContainer_v1::TrigPassBitsAuxContainer_v1()
+      : AuxContainerBase() {
+
+      AUX_VARIABLE( size );
+      AUX_VARIABLE( passBits );
+      AUX_VARIABLE( containerKey );
+      AUX_VARIABLE( containerClid );
+   }
+
+} // namespace xAOD

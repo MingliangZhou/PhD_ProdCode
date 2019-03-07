@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Edited By POOL -->
+<!DOCTYPE POOLFILECATALOG SYSTEM "InMemory">
+<POOLFILECATALOG>
+  <File ID="BAF7798C-96EB-9B41-A7A3-D46A96F9934A">
+    <physical>
+      <pfn filetype="ROOT_All" name="/afs/cern.ch/user/d/dadams/pubdata/xaod_jetclusters.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+</POOLFILECATALOG>

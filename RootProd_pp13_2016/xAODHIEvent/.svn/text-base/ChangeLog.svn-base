@@ -1,0 +1,40 @@
+2015-09-07 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Starting with a proper, full-scale schema evolution, in order
+	  to fix all the issues that came up in 20.1.7.1.
+	* Introduced a _v2 version of all the classes. Since it was
+	  technically necessary to at least make a copy of xAOD::HIEventShape_v1
+	  anyway, I decided to also harmonise its variable names with the
+	  xAOD naming conventions.
+	* Not tagging yet, as the schema evolution code in xAODHIEventAthenaPool
+	  is still missing, and this code was not runtime-tested yet at all.
+
+2015-09-07 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Removed the collection proxy for xAOD::HIEventShapeContainer
+	  for now. Will be added back for the _v2 class.
+	* Tagging as xAODHIEvent-00-00-08
+
+2015-09-07 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Reverted the CLASS_DEF declarations for the versionless
+	  names to use the CLIDs declared first for the versionned
+	  names. Thus allowing us to read ESD/AOD files made with
+	  xAODHIEvent-00-00-02. (All the way up to 20.1.6.X.)
+	* Added a source file including the versionless headers,
+	  and requested the generation of CLIDs for the library
+	  in the requirements file.
+	* Set the Id, Revision and Date keywords for expansion in
+	  the source files.
+	* Tagging as xAODHIEvent-00-00-07
+
+2015-07-10 Aaron Angerami <angerami@cern.ch>
+	* Fix to selection.xml to solve ATR-11478
+	* Tagging as xAODHIEvent-00-00-06
+
+2015-06-08 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Added a collection proxy for xAOD::HIEventShapeContainer, to
+	  read/write it properly with ROOT. This included a change in the
+	  requirements file.
+	* Removed the "transient" variables created by CMT on checkout,
+	  from the cmt/ directory.
+	* Switched the standalone compilation to pedantic mode.
+	* Removed the misleading content from the ChangeLog file.
+	* Tagging as xAODHIEvent-00-00-05

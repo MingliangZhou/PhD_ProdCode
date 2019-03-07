@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 13
+version.hwaf
+
+K 13
+svn:mergeinfo
+V 363
+/Event/xAOD/xAODTrigger/branches/xAODTrigger-00-00-25-branch:628238
+/Event/xAOD/xAODTrigger/devbranches/xAODTrigger-00-00-16-ssstest1:593971-600935
+/Event/xAOD/xAODTrigger/devbranches/xAODTrigger-00-00-27-trigcomposite:631166-631317
+/Event/xAOD/xAODTrigger/tags/xAODTrigger-00-00-25-01:628239-628241
+/Event/xAOD/xAODTrigger/tags/xAODTrigger-00-00-27:631151-631165
+END

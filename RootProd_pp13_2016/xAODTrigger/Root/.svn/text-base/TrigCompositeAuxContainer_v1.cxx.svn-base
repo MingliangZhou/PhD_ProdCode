@@ -1,0 +1,19 @@
+// $Id$
+
+// Local include(s):
+#include "xAODTrigger/versions/TrigCompositeAuxContainer_v1.h"
+
+namespace xAOD {
+
+   TrigCompositeAuxContainer_v1::TrigCompositeAuxContainer_v1()
+      : ByteStreamAuxContainer_v1(){
+
+      AUX_VARIABLE( name );
+
+      AUX_VARIABLE( linkColNames );
+      AUX_VARIABLE( linkColKeys );
+      AUX_VARIABLE( linkColIndices );
+      AUX_VARIABLE( linkColClids );
+   }
+
+} // namespace xAOD

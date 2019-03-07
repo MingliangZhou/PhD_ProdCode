@@ -1,0 +1,19 @@
+package HIPileupTool
+
+author David Adams
+
+public
+use  AtlasPolicy                AtlasPolicy-*                   
+use  AsgTools                   AsgTools-*                      Control/AthToolSupport
+use  xAODForward                xAODForward-*                   Event/xAOD
+use  xAODTrigL1Calo             xAODTrigL1Calo-*                Event/xAOD
+use  xAODHIEvent                xAODHIEvent-*                   Event/xAOD
+use  
+private
+use  AthenaBaseComps            AthenaBaseComps-*               Control
+use  GaudiInterface             GaudiInterface-*                External
+use  AtlasROOT                  AtlasROOT-*                     External
+end_private
+
+library HIPileupTool *.cxx ../Root/HIPileupTool.cxx -s=components *.cxx
+apply_pattern component_library
