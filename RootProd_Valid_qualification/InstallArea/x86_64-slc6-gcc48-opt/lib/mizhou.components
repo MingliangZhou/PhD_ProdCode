@@ -1,0 +1,4 @@
+# --Beg TrigMinBiasMonitoring.components
+# --Date inserted: 2015-07-28 00:18:29.961533
+libTrigMinBiasMonitoring.so:HLTMinBiasMonTool
+# --End TrigMinBiasMonitoring.components

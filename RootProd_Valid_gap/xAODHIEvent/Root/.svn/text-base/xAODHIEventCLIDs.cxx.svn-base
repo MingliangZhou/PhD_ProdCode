@@ -1,0 +1,6 @@
+// $Id$
+
+// Local include(s):
+#include "xAODHIEvent/HIEventShape.h"
+#include "xAODHIEvent/HIEventShapeContainer.h"
+#include "xAODHIEvent/HIEventShapeAuxContainer.h"

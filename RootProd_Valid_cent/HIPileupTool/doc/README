@@ -1,0 +1,26 @@
+//HIPileupTool : Implements pileup rejection using ZDC//
+
+Usage:
+    In initialize: 
+       putool = new HIPileupTool(); // HIPileupTool* putool;
+       std::vector<double> cuts; //Vector to set the optional purity cut above a threshold
+       cuts.push_back(4.4); //FCal_Et (in TeV) threshold above which the required purity should be applied.
+       cuts.push_back(1.0); //Required purity abobe the Et cut. Must be a value in [0,1]. 0==no pileup rejection. 1==all pileup rejected.
+       putool->setProperty("EtCutAndPurity", cuts); //Optional! Set ONLY IF higher purity than the default settings is required above an Et threshold. For standard analysis dont set.
+       EL_RETURN_CHECK("initialize()",putool->initialize());
+
+    In execute:
+        bool   is_pileup(const xAOD::HIEventShapeContainer&, const xAOD::ZdcModuleContainer& );
+            //Returns if the event is pileup or not
+            //Checks if the Zdc energy is calibrated, if not throws an exception. User must use the ZdcAnalysisTool and calibrate the ZdcModules before calling the is_pileup() function. Call the method 'ZdcAnalysisTool::reprocessZdc()' to calibrate the Zdc modules after setting up and initializing the ZdcAnalysisTool.
+
+        double get_efficiency(const xAOD::HIEventShapeContainer&, double& );
+            //returns the efficiency (=fraction of non pileup events retained by the cut) for the FCal_Et of the event. 
+            //second argument returns the FCal_Et for the event
+
+        double get_purity(const xAOD::HIEventShapeContainer&, double& );
+            //returns the purity (=fraction of pileup events rejected by the cut) for the FCal_Et of the event. 
+            //second argument returns the FCal_Et for the event
+
+        void write(TFile* fOut) const;
+            //Write the cuts, efficiency and purity for the current settings of the tool

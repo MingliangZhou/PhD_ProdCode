@@ -1,0 +1,19 @@
+2015-10-29 Andrzej Zemla <azemla@cern.ch>
+	* add ForwardEventInfo* classes
+
+2015-10-26 Andrzej Zemla <azemla@cern.ch>
+	* add MBTSModules_v1, MBTSModulesContainer_v1 and MBTSModulesAuxContainer_v1
+	classess to store mbts info
+
+2015-09-09 Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>
+	* Modified the names of all the accessor functions in xAOD::ALFAData_v1
+	  to be in sync with the variable names in
+	  xAOD::ALFADataAuxContainer_v1.
+	* Re-arranged the documentation of the package a bit, taking out much
+	  of the text from ALFAData_v1.h, and putting it into the package-wide
+	  mainpage.h file.
+	* Added dictionaries for the necessary DataLink and ElementLink types,
+	  and removed the generation of the unnecessary std::vector types.
+	  (Those come from different places both in the offline and the analysis
+	  releases.)
+	* Tagging as xAODForward-00-00-04

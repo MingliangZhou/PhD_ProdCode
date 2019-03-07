@@ -1,0 +1,12 @@
+#include "GaudiKernel/DeclareFactoryEntries.h"
+#include "HIEventUtils/HIEventShapeSummaryTool.h"
+#include "HIEventUtils/HIVertexSelectionTool.h"
+
+DECLARE_TOOL_FACTORY( HIEventShapeSummaryTool )
+DECLARE_TOOL_FACTORY( HI::HIVertexSelectionTool )
+
+DECLARE_FACTORY_ENTRIES( HIEventUtils ) {
+  DECLARE_TOOL( HIEventShapeSummaryTool );
+  DECLARE_TOOL( HI::HIVertexSelectionTool );
+}
+

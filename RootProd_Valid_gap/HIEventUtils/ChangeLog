@@ -1,0 +1,22 @@
+2016-01-20 Felix Clark <michael.ryan.clark@cern.ch>
+	* add HIVertexSelectionTool
+	* gave the vertex selection tool a dual-use ToolHandle to a track selection tool
+	* Tagging as HIEventUtils-00-00-10
+
+2015-10-26 Aaron Angerami <angerami@cern.ch>
+	* fix flow modulation harmonic index bug, RC compilation issues
+	* Tagging as HIEventUtils-00-00-09
+2015-10-26 Aaron Angerami <angerami@cern.ch>
+	* fix range error problem reported in ATR-12267
+	* Tagging as HIEventUtils-00-00-08
+2015-09-10 Aaron Angerami <angerami@cern.ch>
+	* mods to match with function name changes in EDM (xAODHIEvent-00-00-09)
+	* Tagging as HIEventUtils-00-00-07
+
+2015-04-11	Aaron Angerami <angerami@cern.ch>
+	* mods HIEventShapeSummaryTool and renaming HIEventShapeSummary -> HIEventShapeSummaryUtils
+	* tag HIEventUtils-00-00-04
+2015-04-07	Aaron Angerami <angerami@cern.ch>
+	* Creating ChangeLog
+	* mods adding index and summary functionality
+	* tag HIEventUtils-00-00-03

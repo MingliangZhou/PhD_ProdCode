@@ -1,0 +1,281 @@
+2015-02-13 Pawel Jurgielewicz <pjurgielewicz@o2.pl, Pawel.Jurgielewicz@cern.ch>
+		* changes in book() method to make sure real data acquisition works good (no overridden histograms)
+		* monitoring is using now 'StoreGateSvc' and 'TrigDecisionTool' from the base class
+		* new histogram per trigger: 'NumGoodOfflineTracks' in Purity&Efficiency showing the number of accepted offline tracks (trigger passed)
+		* TrigMinBiasMonitoring-00-01-15
+
+2015-02-09 Pawel Jurgielewicz <pjurgielewicz@o2.pl, Pawel.Jurgielewicz@cern.ch>
+		* fixed efficiency calculation - it is aware of per trigger type efficiency cuts (MinBiasEffCuts)
+		* TrigMinBiasMonitoring-00-01-14
+
+2015-02-07 Pawel Jurgielewicz <pjurgielewicz@o2.pl, Pawel.Jurgielewicz@cern.ch>
+		* small fix in the configuration file: 
+			+ histogram mappings are restored to the previous ones from 00-01-10
+			+ MinBiasRefTrigItem value doesn't refer to the one of the trigger list items; the name of the reference trigger is typed explicitly now
+		* TrigMinBiasMonitoring-00-01-13
+
+2015-02-05 Iwona Grabowska-Bold <Iwona.Grabowska@cern.ch>
+	* monitoring_minbias defined as requested by Christos
+	* TrigMinBiasMonitoring-00-01-12
+
+2014-01-31 Pawel Jurgielewicz <pjurgielewicz@o2.pl, Pawel.Jurgielewicz@cern.ch>
+		* configuration:
+			+ the code is no more prone to multiple trigger name declarations
+			+ logically divided into 2 parts: normal user access and advanced user access - additional prevention from unexpected behaviours
+		* added capability to calculate trigger efficiencies (relative to the one specified as 'MinBiasRefTrigItem' in configuration file)
+        * TrigMinBiasMonitoring-00-01-11
+
+2015-01-23 Iwona Grabowska-Bold <Iwona.Grabowska@cern.ch>
+	* mb_sp1800_hmtperf_L1TE20 added to the list (monitoring trigger)
+        * cleanup of TrigMinBiasMonitoringConfig.py
+        * removal of mb_sp2000_pusup700_trk70_hmt_L1TE30 which was included twice on the trigger list
+	* TrigMinBiasMonitoring-00-01-10
+
+2014-12-18 Pawel Jurgielewicz <Pawel.Jurgielewicz@cern.ch>
+		* fixed purity calculations
+        * TrigMinBiasMonitoring-00-01-09
+
+2014-12-09 Pawel Jurgielewicz <Pawel.Jurgielewicz@cern.ch>
+		* histograms for tracking activated
+		* new class of purity monitoring histograms
+        * TrigMinBiasMonitoring-00-01-08
+
+2014-11-21 Pawel Jurgielewicz <Pawel.Jurgielewicz@cern.ch>
+        * bugfix
+		* histograms for spacepoints activated
+        * TrigMinBiasMonitoring-00-01-07
+
+2014-11-17 Pawel Jurgielewicz <Pawel.Jurgielewicz@cern.ch>
+        * support for HMT triggers
+		* new histograms for HMT 
+        * TrigMinBiasMonitoring-00-01-06
+
+2014-08-28 Pawel Jurgielewicz <Pawel.Jurgielewicz@cern.ch>
+        * totally removed old functionality histograms
+        * some small code clean up
+        * TrigMinBiasMonitoring-00-01-05
+
+2014-10-09 Iwona Grabowska-Bold <Iwona.Grabowska@cern.ch>
+	* trigger list updated with the M* items
+	* TrigMinBiasMonitoring-00-01-04
+
+	* migration TileID -> TileTBID for offline MBTS in Run 2
+	* TrigMinBiasMonitoring-00-01-03
+
+2014-08-28 Pawel Jurgielewicz <Pawel.Jurgielewicz@cern.ch>
+         * preparation of MBTS histograms for RUN 2
+         * TrigMinBiasMonitoring-00-01-02
+
+2014-08-27 Pawel Jurgielewicz <Pawel.Jurgielewicz@cern.ch>
+         * migration to menu aware monitoring
+         * TrigMinBiasMonitoring-00-01-01
+
+2014-08-14 Pawel Jurgielewicz <Pawel.Jurgielewicz@cern.ch>
+         * migration to xAOD
+	 * TrigMinBiasMonitoring-00-00-46
+
+2014-07-08 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * unmanaged histogram booking, as requested for new API
+         * https://twiki.cern.ch/twiki/bin/viewauth/AtlasComputing/LS1UpgradeAthenaMonFramework
+         * bookHistograms() -> bookHistogramsRecurrent() 
+         * added ATTRIB_UNMANAGED in m_MonGroup afetr the interval variable (type of Interval_t) 
+
+2014-06-18 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * bookHistograms() in *.cxx (no bool parameters)
+         * Creating tag 00-00-44
+
+2014-06-18 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * bookHistograms() in *.h (no bool parameters) to remove the 
+           corresponding warnings in DC14
+         * Creating tag 00-00-43 (tags 41, 42 mistaken, not to be used)
+
+2014-06-16 Antonello Sbrizzi <Antonio.Sbrizzi@cern.ch>
+	 * in LucidMinBiasMonTool.cxx: 
+	   remove fiber hits from LUCID hit counters.
+
+2014-03-10 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * in ZdcMinBiasMonTool.cxx  to #include: 
+           CaloEvent/CaloSamplingHelper.h and CaloGeoHelpers/CaloSampling.h
+           instead of  the (obsolete) CaloEvent/CaloSampling.h
+         * CaloGeoHelpers added to cmt/requirements
+         * Creating tag 00-00-40
+
+2014-02-10 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * removed 'shift' in the MonGroup call in each package (cxx)
+           as this causes error in the new athena release (nightlies)
+         * Creating tag 00-00-39
+
+2013-01-25 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * in MBTS: EF_mbMbts_1_eff -> EF_mbMbts_2_eff
+         * in HLT (ID):  recent menu hip_trk trigs requested for monitoring
+         * Creating tag 00-00-38
+
+
+2013-01-18 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * in HLT (ID): new trigs vs #tracks added: L1ZDC_C_NoAlg, L1LHCF_NoAlg   
+         * in HLT (ID): additions in TriggerErrors histo
+         * Creating tag 00-00-37
+
+2013-01-17 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * in ZDC: L1_TE20 added to the ZDC_*_VTE & TE histo
+         * in HLT (ID): Lucid_a_c_eff -> Lucid_eff  
+         * mbMbts_1_eff -> mbMbts_2_eff
+         * in HLT (ID): trigs vs #tracks - only if passed mbSp/Trk
+         * in HLT (ID): new trigs vs #tracks added: L1ZDC_A_NoAlg   
+         * uploaded to /trunk so far
+
+2013-01-09 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * Additions in HLT (ID) in src and headers: hip_trk EF added with Space Points conditions, new histo 
+         * Tag 00-00-36 being made
+
+2013-01-08 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * Additions in Lucid in src and headers: LUCID_COMM, _A/C added
+         * in Lucid: in orthoganal trigs - mbSp OR mbSpTrk
+         * in ZDC: L1_TE0,50 and L1_ZDC_A/C_VTE20 added to a new histo
+         * in /trunk so far
+
+2013-01-03 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * Additions in ZDC in src and headers: LHCF stuff added
+         * in orthoganal trigs: mbSp OR mbSpTrk
+         * in /trunk so far
+
+2012-09-08 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * Changes HLT, LUCID, BCM and ZDC in src and headers due to pA trig menu
+         * Tag 00-00-34 made
+         * Tag 00-00-35 : slight correction in src/HLT (Sept. 11) 
+
+2012-04-12 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * CaloEvent added to requirements - fixing warning in nightlies
+           (thanks to Denis Damazio) 
+         * Tag 00-00-33 made
+
+
+2012-03-20 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * EF_mbLucid_eff added passed/faled events as a funct. of 
+           pixel and SCT space points (L2) and EF mb tracks 
+         * Tag 00-00-31 
+         * Updated to tag 00-00-32 (March 21st, some removals made)
+
+2012-03-19 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * 8 TeV (Low-mu) pp v4 menu new NoAlg triggers added for Sp pts 
+           & tracks, selection etc.(EF_rd0_filled_NoAlg/mbMbts_2_NoAlg)
+         * Tag 00-00-29 made.
+
+2012-02-21 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+         * New tag 28 created based on branch 26-10. efficiencies 
+           commenteed out as need to be sued on post-processing (after
+           merging)
+
+2011-11-05 Antonio Sidoti <Antonio.Sidoti@cern.ch>
+         * To fix crash with noCalo datasets (bug 90180)
+
+2011-11-28 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+        * Efficiency calculations fixing.
+          TrigMinBiasMonitoring-00-00-26-09 (Tier0 update)
+
+2011-11-18 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+        *  Problem with AMI=q121 fixed (savannah bug 88986).
+           Tag TrigMinBiasMonitoring-00-00-26-08 (updates noticed from 07) 
+           requested to be in Tier0
+
+2011-11-16 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+        * ZDC, BCM, Lucid *MonTool.cxx/h updated:  All (before MBTS 
+          decision) plots, Efficiency plots added, EF_mbSpTrk to orthog 
+          trigger list added 
+          Tag TrigMinBiasMonitoring-00-00-26-06 
+
+2011-11-14 Antonio Sidoti <Antonio.Sidoti@cern.ch>
+        * ZDC counts vs Calo energy added, EF_mbSpTrk to orthog trigs
+          (tagged TrigMinBiasMonitoring-00-00-26-05)
+
+2011-11-14 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+        * ZDC "all" (before MBTSdecision) plots, efficiencies
+          (tagged TrigMinBiasMonitoring-00-00-26-04)
+
+2011-11-08 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+        * Efficiency plots added (tracks, space points, time/energy)
+          (tag 00-00-26-03 installed at Tier0)
+
+2011-11-04 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+        * Heavy-ion branch created: 00-00-26-branch 
+          (tag 00-00-26-01)
+        * HLTMinBiasMonTool.cxx (& h) changed accordingly compared to the
+          main tag  TrigMinBiasMonitoring-00-00-26: 
+          MBTS energy-time part added   
+
+2011-09-13  A. A. Paramonov <Alexander.Paramonov@cern.ch>
+        * Updated triggers 
+	* Updated histograms and binning
+
+2011-08-29 Edward Sarkisyan-Grinbaum <Edward.Sarkisyan-Grinbaum@cern.ch>
+        * High Mult added to HLT/Mbts
+
+2011-06-03  Simon George  <S.George@rhul.ac.uk>
+	* cmt/requirements: fix checkreq warnings
+	* tag TrigMinBiasMonitoring-00-00-25
+
+2011-04-16 Susumu Oda <Susumu.Oda@cern.ch>
+	* Lowered message levels to fix bug #79117: HLTMinBiasMon shows WARNING 
+	  messages in every event (Reco_trf.py AMI=q122, 16.6.X.Y-VAL rel_1)
+	* Tagged TrigMinBiasMonitoring-00-00-24
+
+2010-09-14 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* Fixed a bug in MbtsMinBiasMonTool
+	* Multiple updates, fixes, and improvements to all sections
+	* see <http://savannah.cern.ch/bugs/?69976> for more detailes
+	* BCM, LUCID, and ZDC are monitored only in events selected by EF_mbMbts_1_eff
+	* The bug report should be closed now
+
+2010-09-01 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* Multiple updates, fixes, and improvements to all sections
+	* see <http://savannah.cern.ch/bugs/?69976> for more detailes
+
+2010-07-11 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* Multiple updates, fixes, and improvements to all sections
+
+2010-03-30 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* Minor fix for HLTMinBiasMonTool.cxx
+
+2010-03-24 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* Updated names of MBTS triggers.
+	* Requirements fixed 
+
+2010-03-15 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* Updates of MBTS, Lucid, and Bcm sections 
+
+2010-03-15 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* ZDC monitoring is functional now  
+
+2010-03-09 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* updated naming for MBTS counters  
+
+2010-03-05 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* Bugfixes 
+
+2010-03-04 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* Small fixes for HLTMinBiasMonTool.* 
+	* Sceleton for ZDC monitorin was added 
+
+2010-02-24 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* HLTMinBiasMonTool.* updated further
+
+2010-02-24 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* New functionality added to HLTMinBiasMonTool.cxx
+
+2010-02-17 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* A minor bugfix in LucidMinBiasMonTool.cxx
+
+2010-02-17 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* LucidMinBiasMonTool.cxx is significantly updated according to the changes in LUCID_Raw_Data
+
+2010-02-10 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* A minor fix for status codes in HLTMinBiasMonTool.cxx and LucidMinBiasMonTool.cxx
+
+2010-02-09 A. A. Paramonov <Alexander.Paramonov@cern.ch>
+	* Adding new functionality to HLTMinBiasMonTool.cxx
+
+2010-02-06 W. H. Bell <W.Bell@cern.ch>
+	* Fixing bug in MbtsMinBiasMonTool.cxx
+
+2009-07-23 Denis Oliveira Damazio <Denis.Oliveira.Damazio@cern.ch>
+	* Splitting the TrigHLTMonitoring into slices
