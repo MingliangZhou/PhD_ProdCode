@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthProd_pp5_2017/build/x86_64-slc6-gcc62-opt/include/AthProd"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthProd_pp5_2017/build/x86_64-slc6-gcc62-opt/include/AthProd.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "AthProd" ],
+		"name" : "AthProdHeaderInstall"
+	}
+}

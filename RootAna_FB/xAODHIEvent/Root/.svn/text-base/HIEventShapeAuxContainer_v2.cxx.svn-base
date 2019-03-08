@@ -1,0 +1,24 @@
+// $Id$
+
+// Local include(s):
+#include "xAODHIEvent/versions/HIEventShapeAuxContainer_v2.h"
+
+namespace xAOD {
+
+   HIEventShapeAuxContainer_v2::HIEventShapeAuxContainer_v2()
+      : AuxContainerBase() {
+
+      AUX_VARIABLE( et );
+      AUX_VARIABLE( area );
+      AUX_VARIABLE( rho );
+      AUX_VARIABLE( nCells );
+
+      AUX_VARIABLE( etCos ); 
+      AUX_VARIABLE( etSin );
+      
+      AUX_VARIABLE( etaMin );
+      AUX_VARIABLE( etaMax );
+      AUX_VARIABLE( layer );
+   }
+
+} // namespace xAOD

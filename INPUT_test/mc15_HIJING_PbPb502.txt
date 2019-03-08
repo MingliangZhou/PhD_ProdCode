@@ -1,0 +1,53 @@
+## checking [mc15_HIJING_PbPb502.root]...
+[?1034hPy:AthFile           INFO loading cache from [athfile-cache.ascii.gz]...
+Py:AthFile           INFO loading cache from [athfile-cache.ascii.gz]... [done]
+Py:AthFile           INFO opening [mc15_HIJING_PbPb502.root]...
+================================================================================
+                          Container type | StoreGate keys                          
+-----------------------------------------+--------------------------------------   
+                xAOD::VertexAuxContainer | GSFConversionVerticesAux., MSDisplacedVertexAux., PrimaryVerticesAux.
+                   xAOD::VertexContainer | GSFConversionVertices, MSDisplacedVertex, PrimaryVertices
+              xAOD::TruthVertexContainer | TruthVertices                           
+xAOD::TrackParticleClusterAssociationContainer | InDetTrackParticlesClusterAssociations  
+                xAOD::PhotonAuxContainer | PhotonsAux.                             
+            xAOD::MBTSModuleAuxContainer | MBTSModulesAux.                         
+xAOD::TrackParticleClusterAssociationAuxContainer | InDetTrackParticlesClusterAssociationsAux.
+                 xAOD::ElectronContainer | Electrons                               
+           xAOD::TruthVertexAuxContainer | TruthVerticesAux.                       
+                      xAOD::EventAuxInfo | EventInfoAux.                           
+           xAOD::MuonSegmentAuxContainer | MuonSegmentsAux., MuonTruthSegmentsAux., NCB_MuonSegmentsAux.
+                  xAOD::MuonAuxContainer | MuonsAux.                               
+                      xAOD::JetContainer | AntiKt2HIJets, AntiKt2TruthJets, AntiKt3HIJets, AntiKt3TruthJets, AntiKt4HIJets, AntiKt4HITrackJets, AntiKt4TruthJets
+                        xAOD::EventShape | TopoClusterIsoCentralEventShape, TopoClusterIsoForwardEventShape
+            xAOD::TrackParticleContainer | CombinedMuonTrackParticles, ExtrapolatedMuonTrackParticles, GSFTrackParticles, InDetTrackParticles, MSonlyTracklets, MuonSpectrometerTrackParticles
+                    RawInfoSummaryForTag | RawInfoSummaryForTag                    
+                   xAOD::JetAuxContainer | AntiKt2HIJetsAux., AntiKt2TruthJetsAux., AntiKt3HIJetsAux., AntiKt3TruthJetsAux., AntiKt4HIJetsAux., AntiKt4HITrackJetsAux., AntiKt4TruthJetsAux.
+              xAOD::CaloClusterContainer | CaloCalTopoClusters, CombinedCluster, HIClusters, InDetTrackParticlesAssociatedClusters, MuonClusterCollection, egammaClusters, egammaTopoSeededClusters
+              xAOD::ElectronAuxContainer | ElectronsAux.                           
+           xAOD::CaloClusterAuxContainer | CaloCalTopoClustersAux., CombinedClusterAux., HIClustersAux., InDetTrackParticlesAssociatedClustersAux., MuonClusterCollectionAux., egammaClustersAux., egammaTopoSeededClustersAux.
+            xAOD::TruthEventAuxContainer | TruthEventsAux.                         
+             xAOD::HIEventShapeContainer | CaloSums, HIEventShape                  
+                   xAOD::PhotonContainer | Photons                                 
+            CaloClusterCellLinkContainer | InDetTrackParticlesAssociatedClusters_links, MuonClusterCollection_links, egammaClusters_links
+         xAOD::TrackParticleAuxContainer | CombinedMuonTrackParticlesAux., ExtrapolatedMuonTrackParticlesAux., GSFTrackParticlesAux., InDetTrackParticlesAux., MSonlyTrackletsAux., MuonSpectrometerTrackParticlesAux.
+         xAOD::TruthParticleAuxContainer | MuonTruthParticlesAux., TruthParticlesAux., egammaTruthParticlesAux.
+            xAOD::TruthParticleContainer | MuonTruthParticles, TruthParticles, egammaTruthParticles
+              xAOD::MuonSegmentContainer | MuonSegments, MuonTruthSegments, NCB_MuonSegments
+                         xAOD::EventInfo | EventInfo                               
+                 xAOD::EventShapeAuxInfo | TopoClusterIsoCentralEventShapeAux., TopoClusterIsoForwardEventShapeAux.
+                 MuonCaloEnergyContainer | MuonCaloEnergyCollection                
+                               EventInfo | McEventInfo                             
+                       LArNoisyROSummary | LArNoisyROSummary                       
+                           RecoTimingObj | ESDtoAOD_mems, ESDtoAOD_timings, EVNTtoHITS_timings, HITStoRDO_timings, RAWtoESD_mems, RAWtoESD_timings
+                         TileMuContainer | TileMuObj                               
+                       TileCellContainer | E4prContainer, MBTSContainer            
+               xAOD::MBTSModuleContainer | MBTSModules                             
+      xAOD::ForwardEventInfoAuxContainer | MBTSForwardEventInfoAux.                
+                              DataHeader | StreamAOD                               
+                       HijingEventParams | Hijing_event_params                     
+         xAOD::ForwardEventInfoContainer | MBTSForwardEventInfo                    
+                     xAOD::MuonContainer | Muons                                   
+          xAOD::HIEventShapeAuxContainer | CaloSumsAux., HIEventShapeAux.          
+               xAOD::TruthEventContainer | TruthEvents                             
+================================================================================
+## Bye.

@@ -1,0 +1,5 @@
+# Target labels
+ AnaCumu
+# Source files and their labels
+/afs/cern.ch/work/m/mizhou/AthAna/build/x86_64-slc6-gcc62-opt/jobOptions/AnaCumu/AnaCumuAlgJobOptions.py
+/afs/cern.ch/work/m/mizhou/AthAna/build/x86_64-slc6-gcc62-opt/jobOptions/AnaCumu/AnaCumuAlgJobOptions.py.rule

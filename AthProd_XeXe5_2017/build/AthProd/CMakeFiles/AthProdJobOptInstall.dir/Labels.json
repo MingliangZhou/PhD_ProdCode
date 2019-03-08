@@ -1,0 +1,23 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthProd_XeXe5_2017/build/x86_64-slc6-gcc62-opt/jobOptions/AthProd/AthProdAlgJobOptions.py"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthProd_XeXe5_2017/source/AthProd/share/AthProdAlgJobOptions.py"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthProd_XeXe5_2017/build/x86_64-slc6-gcc62-opt/jobOptions/AthProd/AthProdAlgJobOptions.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "AthProd" ],
+		"name" : "AthProdJobOptInstall"
+	}
+}

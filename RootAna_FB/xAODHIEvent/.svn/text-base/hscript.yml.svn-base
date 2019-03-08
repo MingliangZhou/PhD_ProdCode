@@ -1,0 +1,54 @@
+## package header
+
+# $Id$
+
+package: {
+    name:    Event/xAOD/xAODHIEvent,
+    authors: [
+        "Anne Sickles <sickles@illinois.edu>"
+        ],
+
+
+    deps: {
+        public: [
+            AtlasPolicy,
+            External/AtlasROOT,
+            #Control/SGTools,
+            Control/AthContainers,
+            Event/xAOD/xAODCore,
+        ],
+        private: [],
+        runtime: [],
+    }
+}
+
+options: {
+}
+
+configure: {
+}
+
+build: {
+
+    ## install the headers
+    xAODHIEvent: {
+        features: "atlas_library",
+        source:   "src/*.cxx",
+        use:      [
+            "SGTools",
+            "AthContainers",
+            "xAODCore",
+            ],
+    },
+
+    ## build the dictionary
+    xAODHIEventDict: {
+        features:       "atlas_dictionary",
+        source:         "xAODHIEvent/xAODHIEventDict.h",
+        selection_file: "xAODHIEvent/selection.xml",
+        use:            ["xAODHIEvent"],
+    },
+
+}
+
+## EOF ##

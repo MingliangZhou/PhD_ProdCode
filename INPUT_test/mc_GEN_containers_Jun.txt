@@ -1,0 +1,19 @@
+## checking [mc15_pp_13TeV_Pythia8_GEN.root]...
+[?1034hPy:AthFile           INFO loading cache from [athfile-cache.ascii.gz]...
+Py:AthFile           INFO loading cache from [athfile-cache.ascii.gz]... [done]
+Py:AthFile           INFO opening [mc15_pp_13TeV_Pythia8_GEN.root]...
+================================================================================
+                          Container type | StoreGate keys                          
+-----------------------------------------+--------------------------------------   
+           xAOD::TruthVertexAuxContainer | TruthVerticesAux.                       
+              xAOD::TruthVertexContainer | TruthVertices                           
+                               EventInfo | McEventInfo                             
+                      xAOD::EventAuxInfo | EventInfoAux.                           
+                              DataHeader | StreamDAOD_TRUTH0                       
+         xAOD::TruthParticleAuxContainer | TruthParticlesAux.                      
+            xAOD::TruthEventAuxContainer | TruthEventsAux.                         
+                         xAOD::EventInfo | EventInfo                               
+            xAOD::TruthParticleContainer | TruthParticles                          
+               xAOD::TruthEventContainer | TruthEvents                             
+================================================================================
+## Bye.

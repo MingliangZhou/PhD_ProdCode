@@ -1,0 +1,5 @@
+# Target labels
+ AthProd
+# Source files and their labels
+/afs/cern.ch/work/m/mizhou/AthProd_pp5_2017/build/x86_64-slc6-gcc62-opt/include/AthProd
+/afs/cern.ch/work/m/mizhou/AthProd_pp5_2017/build/x86_64-slc6-gcc62-opt/include/AthProd.rule

@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthAna/source/AnaCumu/src/components/AnaCumu_entries.cxx"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthAna/source/AnaCumu/src/components/AnaCumu_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "AnaCumu" ],
+		"name" : "AnaCumu"
+	}
+}

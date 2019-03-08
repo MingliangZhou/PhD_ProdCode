@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Edited By POOL -->
+<!DOCTYPE POOLFILECATALOG SYSTEM "InMemory">
+<POOLFILECATALOG>
+  <File ID="11F3E261-B7C7-774B-AFBF-FE71A9173DB7">
+    <physical>
+      <pfn filetype="ROOT_All" name="/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/CommonInputs/DAOD_PHYSVAL/mc16_13TeV.410501.PowhegPythia8EvtGen_A14_ttbar_hdamp258p75_nonallhad.DAOD_PHYSVAL.e5458_s3126_r9364_r9315_AthDerivation-21.2.1.0.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="E1DFD848-666C-9542-AF54-7F48B265D121">
+    <physical>
+      <pfn filetype="ROOT_All" name="/afs/cern.ch/user/a/arbehera/public/data17_hi.00338037.express_express.merge.AOD.x535_m1885/data17_hi.00338037.express_express.merge.AOD.x535_m1885._lb0535-lb0541._0001.1"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="0D752580-F074-4548-AB8D-E0EAE370FD0B">
+    <physical>
+      <pfn filetype="ROOT_All" name="/afs/cern.ch/work/m/mizhou/INPUT_test/data17_XeXe5_MinBias.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="7F61B6E6-CAE3-A243-936B-A2862BEEE52B">
+    <physical>
+      <pfn filetype="ROOT_All" name="/afs/cern.ch/work/m/mizhou/INPUT_test/data17_pp5_MinBias.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="D8F1ADA5-E357-8C4D-9E5D-D39ABBF09CEB">
+    <physical>
+      <pfn filetype="ROOT_All" name="/afs/cern.ch/work/m/mizhou/INPUT_test/data17_pp13_MinBias.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="4F4FE19F-BF80-2644-910E-C838129008A5">
+    <physical>
+      <pfn filetype="ROOT_All" name="/afs/cern.ch/work/m/mizhou/INPUT_test/data17_pp5_MinBias_r10235.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="0450F632-B51B-734B-A258-56DC1C6FDA0E">
+    <physical>
+      <pfn filetype="ROOT_All" name="/afs/cern.ch/work/m/mizhou/INPUT_test/data17_pp5_MinBias_f911.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="AB01165A-91CA-6B47-BE33-34CF5AEB087A">
+    <physical>
+      <pfn filetype="ROOT_All" name="/afs/cern.ch/work/m/mizhou/INPUT_test/data17_pp5_MinBias_f895.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+</POOLFILECATALOG>

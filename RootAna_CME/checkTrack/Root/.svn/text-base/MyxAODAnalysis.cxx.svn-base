@@ -1,0 +1,542 @@
+#include <EventLoop/Job.h>
+#include <EventLoop/StatusCode.h>
+#include <EventLoop/Worker.h>
+#include <checkTrack/MyxAODAnalysis.h>
+
+#include "xAODRootAccess/tools/Message.h"
+
+#include "xAODEventInfo/EventInfo.h"
+#include "xAODTracking/TrackParticleContainer.h"
+#include "xAODTracking/TrackParticleAuxContainer.h"
+#include "xAODTracking/VertexContainer.h"
+
+
+#include <xAODHIEvent/HIEventShape.h>
+#include <xAODHIEvent/HIEventShapeContainer.h>
+
+#include "isGoodEvent.C"
+#define EL_RETURN_CHECK( CONTEXT, EXP )                    \
+   do {                                                    \
+      if( ! EXP.isSuccess() ) {                            \
+         Error( CONTEXT,                                   \
+               XAOD_MESSAGE( "Failed to execute: %s" ),    \
+               #EXP );                                     \
+         return EL::StatusCode::FAILURE;                   \
+      }                                                    \
+   } while( false )
+
+
+
+// this is needed to distribute the algorithm to the workers
+ClassImp(MyxAODAnalysis)
+
+
+
+MyxAODAnalysis :: MyxAODAnalysis ()
+{
+    // Here you put any code for the base initialization of variables,
+    // e.g. initialize all pointers to 0.  Note that you should only put
+    // the most basic initialization here, since this method will be
+    // called on both the submission and the worker node.  Most of your
+    // initialization code will go into histInitialize() and
+    // initialize().
+}
+
+
+
+EL::StatusCode MyxAODAnalysis :: setupJob (EL::Job& job)
+{
+    // Here you put code that sets up the job on the submission object
+    // so that it is ready to work with your algorithm, e.g. you can
+    // request the D3PDReader service or add output files.  Any code you
+    // put here could instead also go into the submission script.  The
+    // sole advantage of putting it here is that it gets automatically
+    // activated/deactivated when you add/remove the algorithm from your
+    // job, which may or may not be of value to you.
+
+    job.useXAOD ();
+    EL_RETURN_CHECK( "setupJob()", xAOD::Init() );  
+
+
+    return EL::StatusCode::SUCCESS;
+}
+
+
+
+EL::StatusCode MyxAODAnalysis :: histInitialize ()
+{
+    // Here you do everything that needs to be done at the very
+    // beginning on each worker node, e.g. create histograms and output
+    // trees.  This method gets called before any input files are
+    // connected.
+    return EL::StatusCode::SUCCESS;
+}
+
+
+
+EL::StatusCode MyxAODAnalysis :: fileExecute ()
+{
+    // Here you do everything that needs to be done exactly once for every
+    // single file, e.g. collect a list of all lumi-blocks processed
+    return EL::StatusCode::SUCCESS;
+}
+
+
+
+EL::StatusCode MyxAODAnalysis :: changeInput (bool firstFile)
+{
+    // Here you do everything you need to do when we change input files,
+    // e.g. resetting branch addresses on trees.  If you are using
+    // D3PDReader or a similar service this method is not needed.
+    return EL::StatusCode::SUCCESS;
+}
+
+
+
+EL::StatusCode MyxAODAnalysis :: initialize ()
+{
+    // Here you do everything that you need to do after the first input
+    // file has been connected and before the first event is processed,
+    // e.g. create additional histograms based on which variables are
+    // available in the input files.  You can also create all of your
+    // histograms and trees in here, but be aware that this method
+    // doesn't get called if no events are processed.  So any objects
+    // you create here won't be available in the output if you have no
+    // input events.
+
+    m_event = wk()->xaodEvent();
+    Info("initialize()", "Number of events = %lli", m_event->getEntries() ); // print long long int
+
+    m_eventCounter=0;
+    eventID = 0;
+
+    // Trigger setup
+
+    m_trigConfigTool = new TrigConf::xAODConfigTool("xAODConfigTool"); // gives us access to the meta-data
+    EL_RETURN_CHECK( "initialize", m_trigConfigTool->initialize() );
+
+    ToolHandle< TrigConf::ITrigConfigTool > trigConfigHandle( m_trigConfigTool );
+    if (trigConfigHandle->initialize().isFailure()) {
+        Error("initialize()","Failed to initialize trigger config handle");
+        return EL::StatusCode::FAILURE;
+    }
+
+    m_trigDecisionTool = new Trig::TrigDecisionTool("TrigDecisionTool");
+    EL_RETURN_CHECK( "initialize", m_trigDecisionTool->setProperty( "ConfigTool", trigConfigHandle ) ); // connect the TrigDecisionTool to the ConfigTool
+    EL_RETURN_CHECK( "initialize", m_trigDecisionTool->setProperty( "TrigDecisionKey", "xTrigDecision" ) );
+    EL_RETURN_CHECK( "initialize", m_trigDecisionTool->initialize() );
+
+
+    fout = new TFile("myaod.root","recreate");
+
+    char name[200];
+
+    hntrk = new TH1D("hntrk","",500,0,5000);
+    hntrk->Sumw2();
+    hvtxz = new TH1D("hvtxz","",400,-200,200);
+    hvtxz->Sumw2();
+
+    hnvtxz = new TH1D("hnvtxz","",50,0,50);
+    hnvtxz->Sumw2();
+
+    for(int ic=0; ic<NCENT+1; ic++){
+        sprintf(name,"hFcal_Et_ic%d", ic);
+        hFcal_Et[ic] = new TH1D(name,"",600, -1,5); //TeV
+        hFcal_Et[ic] ->Sumw2();
+
+        sprintf(name, "hpt_tight_ic%d", ic);
+        hpt[ic] = new TH1D(name,"",5000,0,50); // pT spectra
+        hpt[ic] ->Sumw2();
+    }
+
+    for(int ipt=0; ipt<NPT+1; ipt++){
+        for(int ic=0; ic<NCENT+1; ic++){
+            sprintf(name, "hd0_wrtPV_%d_ic%d", ipt, ic);
+            hd0_wrtPV[ipt][ic] = new TH2D(name,"",500,0,5,1000,-10,10) ;  //(2D histogram with other axis as pT)
+            hd0_wrtPV[ipt][ic] ->Sumw2();
+            sprintf(name, "hz0_wrtPV_sin_theta_%d_ic%d", ipt, ic);
+            hz0_wrtPV_sin_theta[ipt][ic] = new TH2D(name,"",500,0,5,1000,-10,10);  // (2D histogram with other axis as pT)
+            hz0_wrtPV_sin_theta[ipt][ic] ->Sumw2();
+
+            sprintf(name, "h_Hits_Pixel_%d_ic%d", ipt, ic);
+            h_Hits_Pixel[ipt][ic] = new TH2D(name,"",10,-2.5,2.5,20,0,20); // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+            h_Hits_Pixel[ipt][ic] ->Sumw2();
+            sprintf(name, "h_Holes_Pixel_%d_ic%d", ipt, ic);
+            h_Holes_Pixel[ipt][ic]  = new TH2D(name,"",10,-2.5,2.5,20,0,20); // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+            h_Holes_Pixel[ipt][ic]  ->Sumw2();
+            sprintf(name, "h_Hits_SCT_%d_ic%d", ipt, ic);
+            h_Hits_SCT[ipt][ic]  = new TH2D(name,"",10,-2.5,2.5,20,0,20);   // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+            h_Hits_SCT[ipt][ic]  ->Sumw2();
+            sprintf(name, "h_Holes_SCT_%d_ic%d", ipt, ic);
+            h_Holes_SCT[ipt][ic] = new TH2D(name,"",10,-2.5,2.5,20,0,20);   // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+            h_Holes_SCT[ipt][ic] ->Sumw2();
+
+            sprintf(name, "h1_Hits_Pixel_%d_ic%d", ipt, ic);
+            h1_Hits_Pixel[ipt][ic] = new TProfile(name,"",10,-2.5,2.5); // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+            h1_Hits_Pixel[ipt][ic] ->Sumw2();
+            sprintf(name, "h1_Holes_Pixel_%d_ic%d", ipt, ic);
+            h1_Holes_Pixel[ipt][ic]  = new TProfile(name,"",10,-2.5,2.5); // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+            h1_Holes_Pixel[ipt][ic]  ->Sumw2();
+            sprintf(name, "h1_Hits_SCT_%d_ic%d", ipt, ic);
+            h1_Hits_SCT[ipt][ic]  = new TProfile(name,"",10,-2.5,2.5);   // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+            h1_Hits_SCT[ipt][ic]  ->Sumw2();
+            sprintf(name, "h1_Holes_SCT_%d_ic%d", ipt, ic);
+            h1_Holes_SCT[ipt][ic] = new TProfile(name,"",10,-2.5,2.5);   // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+            h1_Holes_SCT[ipt][ic] ->Sumw2();
+
+            sprintf(name, "hdN_deta_%d_ic%d", ipt, ic);
+            hdN_deta[ipt][ic] = new TH1D(name,"",50,-2.5,2.5); //dN_trk/d_eta (pT>0.5GeV)
+            hdN_deta[ipt][ic] ->Sumw2();
+
+        }      
+    }
+
+    return EL::StatusCode::SUCCESS;
+}
+
+
+
+EL::StatusCode MyxAODAnalysis :: execute ()
+{
+    // Here you do everything that needs to be done on every single
+    // events, e.g. read input variables, apply cuts, and fill
+    // histograms and trees.  This is where most of your actual analysis
+    // code will go.
+
+    if((eventID%1000) == 0) Info("execute()", "Event number = %i", m_eventCounter );
+    eventID++;
+
+    //------------------------------------------------------  
+    // Event Infomation
+    //------------------------------------------------------ 
+
+    const xAOD::EventInfo* eventInfo = 0;
+    EL_RETURN_CHECK("execute",m_event->retrieve( eventInfo, "EventInfo"));
+
+    RunNumber         =eventInfo->runNumber();
+    unsigned int lbn  =eventInfo->lumiBlock();
+    unsigned int bcid=eventInfo->bcid();
+
+    // check if the event is data or MC
+    // (many tools are applied either to data or MC)
+    bool isMC = false;
+    // check if the event is MC
+    if(eventInfo->eventType( xAOD::EventInfo::IS_SIMULATION ) ){
+        isMC = true; // can do something with this later
+    }   
+
+    if( isGoodEvent(RunNumber,lbn,bcid) !=1 ) return EL::StatusCode::SUCCESS;
+
+
+    //------------------------------------------------------  
+    //MB trigger
+    //------------------------------------------------------ 
+
+    static int patt = 0;
+
+    if(patt==0){
+        //Print all the trigger Name
+        auto chainGroup = m_trigDecisionTool->getChainGroup(".*"); 
+        //for(auto trig_selc : TrigList) std::cout<<"We will Select and Save "<< trig_selc <<std::endl;
+        //auto chainGroup = m_trigDecisionTool->getChainGroup("EF_.*|HLT_.*");
+        //auto chainGroup = m_trigDecisionTool->getChainGroup("EF_.*");
+
+        for(auto &trig : chainGroup->getListOfTriggers()) {
+            std::cout<<trig<<std::endl;
+        }
+        patt++;
+    }
+
+    bool pass_trigger_cuts = false;
+
+    if(m_trigDecisionTool->isPassed("HLT_noalg_mb_L1TE50")){ pass_trigger_cuts =true; }
+    if(m_trigDecisionTool->isPassed("HLT_mb_sptrk_ion_L1ZDC_A_C_VTE50")){ pass_trigger_cuts =true; }
+    if( !pass_trigger_cuts ) return EL::StatusCode::SUCCESS;
+
+
+    //------------------------------------------------------  
+    // Primary Vertex
+    //------------------------------------------------------  
+
+    const xAOD::VertexContainer *l_VertexContainer;
+    EL_RETURN_CHECK("execute",m_event->retrieve( l_VertexContainer, "PrimaryVertices"));
+
+    int nsize = l_VertexContainer->size();
+
+    hnvtxz ->Fill(nsize);
+
+    /*
+    bool hasPrimaryVertex = false;
+    xAOD::Vertex* primaryVertex = nullptr;
+
+    for( auto vertex: *l_VertexContainer ) {
+    if( vertex->vertexType() == xAOD::VxType::PriVtx ) {
+    primaryVertex = vertex;
+    hasPrimaryVertex = true;
+    }
+    }
+
+    if( !hasPrimaryVertex  ) return EL::StatusCode::SUCCESS;
+    */
+
+
+    //****  Finish cutting on Primary Vertex ******
+    if(nsize <2 ){
+        return EL::StatusCode::SUCCESS;
+        Info("execute()", "Strange Event with vertex < 2 %i", eventID); //Just make sure it is a primary vertex event
+    }
+
+    auto vtx = l_VertexContainer->begin();
+    double z_vtx = (*vtx)->z();
+    hvtxz->Fill( z_vtx  );
+
+    //------------------------------------------------------  
+    // HIEventShape
+    //------------------------------------------------------ 
+
+    const xAOD::HIEventShapeContainer* evtShape;
+
+    EL_RETURN_CHECK("execute",m_event->retrieve( evtShape, "HIEventShape"));
+    //EL_RETURN_CHECK("execute",m_event->retrieve( evtShape, "HLT_xAOD__HIEventShapeContainer_HIUE"));
+    float FCalET = 0;
+    //std::cout<<evtShape->size()<<std::endl;
+    for(const auto *ptrEvtShp : *evtShape)
+    {   
+        if(fabs((ptrEvtShp->etaMin()+ptrEvtShp->etaMax())/2)<3.2) continue;
+        FCalET += ptrEvtShp->et()/1000000;
+    }
+
+    int cent = -1;
+
+    //2011 98% centrality cut
+    //https://twiki.cern.ch/twiki/pub/AtlasProtected/HeavyIonAnalysis2011/2010_2011_ATLAS_centrality_cuts.txt
+    if(FCalET>=0.0146){ //85% cut
+        if(FCalET>1.0448)  cent = 0; //30% cut
+        else if(FCalET>0.1024)  cent = 1; //70% cut
+        else  cent = 2;
+
+    }
+    if(cent>=0)  hFcal_Et[cent] ->Fill( FCalET  );
+    hFcal_Et[NCENT] ->Fill( FCalET  );
+
+    //------------------------------------------------------  
+    // Process Track
+    //------------------------------------------------------ 
+
+    const xAOD::TrackParticleContainer *l_TrackParticleContainer;
+    EL_RETURN_CHECK("ProcessTracks",m_event->retrieve( l_TrackParticleContainer, "InDetTrackParticles"));
+
+    float m_track_pt    = 0;
+    float m_track_eta   = 0;
+    float m_track_phi   = 0;
+    float m_track_theta = 0;
+
+    float m_track_d0            = 0; 
+    float m_track_z0_wrtPV      = 0; 
+    float m_track_vz            = 0; 
+
+    int m_track_sct_hits      = 0;
+    int m_track_pix_hits      = 0; 
+    int m_track_sct_holes     = 0; 
+    int m_track_pix_holes     = 0;
+    float m_track_chi2          = 0; 
+    float m_track_ndof          = 0; 
+
+    int m_num_IBLayer       = 0; 
+    int m_exp_IBLayer       = 0; 
+    int m_num_NIBLayer      = 0; 
+    int m_exp_NIBLayer      = 0; 
+
+    int ptbin = 0;
+    int tightntrk = 0;
+    float z0_theta = 0;
+
+    for( const auto* track : *l_TrackParticleContainer){
+        m_track_pt    =track->pt    ()/1000.0;
+        m_track_eta   =track->eta   ();
+        m_track_phi   =track->phi   ();
+        m_track_theta   =track->theta ();  
+
+        m_track_d0            = track->d0();
+        m_track_vz            = track->vz();
+        m_track_z0_wrtPV      = track->z0()+track->vz() - z_vtx;
+
+        z0_theta = m_track_z0_wrtPV*sin(m_track_theta);
+
+        m_track_sct_hits      = track->auxdata<unsigned char>("numberOfSCTHits");
+        m_track_pix_hits      = track->auxdata<unsigned char>("numberOfPixelHits");
+        m_track_sct_holes     = track->auxdata<unsigned char>("numberOfSCTHoles");
+        m_track_pix_holes     = track->auxdata<unsigned char>("numberOfPixelHoles");
+        m_track_chi2          = track->auxdata<float        >("chiSquared");
+        m_track_ndof          = track->auxdata<float        >("numberDoF");
+
+        m_num_IBLayer           = track->auxdata<unsigned char>("numberOfInnermostPixelLayerHits");
+        m_exp_IBLayer           = track->auxdata<unsigned char>("expectInnermostPixelLayerHit");
+        m_num_NIBLayer      = track->auxdata<unsigned char>("numberOfNextToInnermostPixelLayerHits");
+        m_exp_NIBLayer      = track->auxdata<unsigned char>("expectNextToInnermostPixelLayerHit");
+
+        ptbin = -1;
+
+        if(m_track_pt>=0.5 && m_track_pt<1.0) ptbin = 0;
+        else if(m_track_pt>=1.0 && m_track_pt<2.0) ptbin = 1;
+        else if(m_track_pt>=2.0) ptbin = 2;
+        //coutnt nTrk
+        if(ptbin<0) continue;
+
+        //pT, eta, Pixel_Holes --------------------------------------------------------------------
+        //New cut rule 
+        //we don't cut on IBL but NIBL to be the same with D3DP
+        if(m_track_pix_hits>=2 && m_track_sct_hits>=8 && m_track_sct_holes<=1 && fabs(m_track_d0)<=1.0 && fabs(z0_theta)<=1.0){
+            if(m_track_ndof==0 || (m_exp_NIBLayer==1 && m_num_NIBLayer ==0) ){
+            }else{
+                tightntrk ++;
+
+                if(cent>=0)   hpt[cent]->Fill(m_track_pt); 
+                hpt[NCENT]->Fill(m_track_pt); 
+
+                if(m_track_pt>=0.5){
+                    if(cent>=0)   hdN_deta[ptbin][cent]   ->Fill( m_track_eta );
+                    if(cent>=0)   hdN_deta[NPT][cent]     ->Fill( m_track_eta );
+                    hdN_deta[ptbin][NCENT]  ->Fill( m_track_eta );
+                    hdN_deta[NPT][NCENT]    ->Fill( m_track_eta );   
+                } 
+
+                if(cent>=0)  h_Holes_Pixel[ptbin][cent]  ->Fill(m_track_eta,m_track_pix_holes ); 
+                if(cent>=0)  h_Holes_Pixel[NPT][cent]    ->Fill(m_track_eta,m_track_pix_holes ); 
+                h_Holes_Pixel[ptbin][NCENT] ->Fill(m_track_eta,m_track_pix_holes ); 
+                h_Holes_Pixel[NPT][NCENT]   ->Fill(m_track_eta,m_track_pix_holes ); 
+
+                if(cent>=0)  h1_Holes_Pixel[ptbin][cent] ->Fill(m_track_eta,m_track_pix_holes ); 
+                if(cent>=0)  h1_Holes_Pixel[NPT][cent]   ->Fill(m_track_eta,m_track_pix_holes ); 
+                h1_Holes_Pixel[ptbin][NCENT]->Fill(m_track_eta,m_track_pix_holes ); 
+                h1_Holes_Pixel[NPT][NCENT]  ->Fill(m_track_eta,m_track_pix_holes ); 
+
+            }
+        }
+
+        //Hits_Pixel--------------------------------------------------------------------
+        if( m_track_sct_hits>=8 && m_track_sct_holes<=1 && fabs(m_track_d0)<=1.0 && fabs(z0_theta)<=1.0){
+            if(m_track_ndof==0 || (m_exp_NIBLayer==1 && m_num_NIBLayer ==0)){
+            }else{
+                if(cent>=0)   h_Hits_Pixel [ptbin][cent]   ->Fill(m_track_eta,m_track_pix_hits);
+                if(cent>=0)   h_Hits_Pixel [NPT][cent]     ->Fill(m_track_eta,m_track_pix_hits);
+                h_Hits_Pixel [ptbin][NCENT]  ->Fill(m_track_eta,m_track_pix_hits);
+                h_Hits_Pixel [NPT][NCENT]    ->Fill(m_track_eta,m_track_pix_hits);
+
+                if(cent>=0)   h1_Hits_Pixel [ptbin][cent]  ->Fill(m_track_eta,m_track_pix_hits);
+                if(cent>=0)  h1_Hits_Pixel [NPT][cent]    ->Fill(m_track_eta,m_track_pix_hits);
+                h1_Hits_Pixel [ptbin][NCENT] ->Fill(m_track_eta,m_track_pix_hits);
+                h1_Hits_Pixel [NPT][NCENT]   ->Fill(m_track_eta,m_track_pix_hits);
+            }
+        }
+
+        //Hits_SCT--------------------------------------------------------------------
+        if(m_track_pix_hits>=2 && m_track_sct_holes<=1 && fabs(m_track_d0)<=1.0 && fabs(z0_theta)<=1.0){
+            if(m_track_ndof==0 || (m_exp_NIBLayer==1 && m_num_NIBLayer ==0)){
+            }else{
+                if(cent>=0)   h_Hits_SCT   [ptbin][cent]   ->Fill(m_track_eta,m_track_sct_hits);  
+                if(cent>=0)   h_Hits_SCT   [NPT][cent]     ->Fill(m_track_eta,m_track_sct_hits);  
+                h_Hits_SCT   [ptbin][NCENT]  ->Fill(m_track_eta,m_track_sct_hits);  
+                h_Hits_SCT   [NPT][NCENT]    ->Fill(m_track_eta,m_track_sct_hits);  
+
+                if(cent>=0)  h1_Hits_SCT   [ptbin][cent]  ->Fill(m_track_eta,m_track_sct_hits);  
+                if(cent>=0)  h1_Hits_SCT   [NPT][cent]    ->Fill(m_track_eta,m_track_sct_hits);  
+                h1_Hits_SCT   [ptbin][NCENT] ->Fill(m_track_eta,m_track_sct_hits);  
+                h1_Hits_SCT   [NPT][NCENT]   ->Fill(m_track_eta,m_track_sct_hits);  
+
+            }
+        }
+        //Holes_SCT--------------------------------------------------------------------
+        if(m_track_pix_hits>=2 && m_track_sct_hits>=8  && fabs(m_track_d0)<=1.0 && fabs(z0_theta)<=1.0){
+            if(m_track_ndof==0 || (m_exp_NIBLayer==1 && m_num_NIBLayer ==0)){
+            }else{
+
+                if(cent>=0)  h_Holes_SCT  [ptbin][cent]  ->Fill(m_track_eta,m_track_sct_holes );   
+                if(cent>=0)  h_Holes_SCT  [NPT][cent]    ->Fill(m_track_eta,m_track_sct_holes );  
+                h_Holes_SCT  [ptbin][NCENT] ->Fill(m_track_eta,m_track_sct_holes );   
+                h_Holes_SCT  [NPT][NCENT]   ->Fill(m_track_eta,m_track_sct_holes );    
+
+                if(cent>=0)   h1_Holes_SCT  [ptbin][cent]  ->Fill(m_track_eta,m_track_sct_holes );   
+                if(cent>=0)   h1_Holes_SCT  [NPT][cent]    ->Fill(m_track_eta,m_track_sct_holes );  
+                h1_Holes_SCT  [ptbin][NCENT] ->Fill(m_track_eta,m_track_sct_holes );   
+                h1_Holes_SCT  [NPT][NCENT]   ->Fill(m_track_eta,m_track_sct_holes );  
+
+            }
+        }
+        //hz0_wrtPV_sin_theta--------------------------------------------------------------------
+        if(m_track_pix_hits>=2 && m_track_sct_hits>=8 && m_track_sct_holes<=1 && fabs(m_track_d0)<=1.0){
+            if(m_track_ndof==0 || (m_exp_NIBLayer==1 && m_num_NIBLayer ==0)){
+            }else{
+                if(cent>=0)  hz0_wrtPV_sin_theta[ptbin][cent]  ->Fill(m_track_pt, z0_theta);  
+                if(cent>=0)  hz0_wrtPV_sin_theta[NPT][cent]    ->Fill(m_track_pt, z0_theta);  
+                hz0_wrtPV_sin_theta[ptbin][NCENT] ->Fill(m_track_pt, z0_theta);  
+                hz0_wrtPV_sin_theta[NPT][NCENT]   ->Fill(m_track_pt, z0_theta);  
+            }
+        }
+        //hd0_wrtPV--------------------------------------------------------------------
+        if(m_track_pix_hits>=2 && m_track_sct_hits>=8 && m_track_sct_holes<=1 && fabs(z0_theta)<=1.0){
+            if(m_track_ndof==0 || (m_exp_NIBLayer==1 && m_num_NIBLayer ==0)){
+            }else{
+                if(cent>=0)   hd0_wrtPV          [ptbin][cent]  ->Fill(m_track_pt, m_track_d0);  
+                if(cent>=0)   hd0_wrtPV          [NPT][cent]    ->Fill(m_track_pt, m_track_d0);  
+                hd0_wrtPV          [ptbin][NCENT] ->Fill(m_track_pt, m_track_d0);  
+                hd0_wrtPV          [NPT][NCENT]   ->Fill(m_track_pt, m_track_d0); 
+            }
+        }
+
+    }
+    hntrk->Fill(tightntrk);
+
+
+    //Finish process all
+    m_eventCounter++;
+
+    return EL::StatusCode::SUCCESS;
+}
+
+
+
+EL::StatusCode MyxAODAnalysis :: postExecute ()
+{
+    // Here you do everything that needs to be done after the main event
+    // processing.  This is typically very rare, particularly in user
+    // code.  It is mainly used in implementing the NTupleSvc.
+    return EL::StatusCode::SUCCESS;
+}
+
+
+
+EL::StatusCode MyxAODAnalysis :: finalize ()
+{
+    // This method is the mirror image of initialize(), meaning it gets
+    // called after the last event has been processed on the worker node
+    // and allows you to finish up any objects you created in
+    // initialize() before they are written to disk.  This is actually
+    // fairly rare, since this happens separately for each worker node.
+    // Most of the time you want to do your post-processing on the
+    // submission node after all your histogram outputs have been
+    // merged.  This is different from histFinalize() in that it only
+    // gets called on worker nodes that processed input events.
+    fout->cd();
+    fout->Write();
+    std::cout<<"We have "<<eventID<<std::endl;
+    std::cout<<"We pass "<<m_eventCounter<<std::endl;
+    return EL::StatusCode::SUCCESS;
+}
+
+
+
+EL::StatusCode MyxAODAnalysis :: histFinalize ()
+{
+    // This method is the mirror image of histInitialize(), meaning it
+    // gets called after the last event has been processed on the worker
+    // node and allows you to finish up any objects you created in
+    // histInitialize() before they are written to disk.  This is
+    // actually fairly rare, since this happens separately for each
+    // worker node.  Most of the time you want to do your
+    // post-processing on the submission node after all your histogram
+    // outputs have been merged.  This is different from finalize() in
+    // that it gets called on all worker nodes regardless of whether
+    // they processed input events.
+    return EL::StatusCode::SUCCESS;
+}

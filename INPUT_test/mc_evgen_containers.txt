@@ -1,0 +1,11 @@
+## checking [mc15_pp_13TeV_Pythia8_evgen.root]...
+[?1034hPy:AthFile           INFO opening [mc15_pp_13TeV_Pythia8_evgen.root]...
+## checking [mc15_pp_13TeV_Pythia8_evgen.root]...
+[?1034h================================================================================
+                          Container type | StoreGate keys                          
+-----------------------------------------+--------------------------------------   
+                       McEventCollection | GEN_EVENT                               
+                               EventInfo | McEventInfo                             
+                              DataHeader | StreamEVGEN                             
+================================================================================
+## Bye.

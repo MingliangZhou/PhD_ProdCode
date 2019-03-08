@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthAna/source/AnaCumu/src/AnaCumuAlg.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "AnaCumu" ],
+		"name" : "AnaCumuLib"
+	}
+}

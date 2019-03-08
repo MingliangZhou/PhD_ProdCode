@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/XeXeCentRel21/build/x86_64-slc6-gcc62-opt/include/XeXeCent"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/XeXeCentRel21/build/x86_64-slc6-gcc62-opt/include/XeXeCent.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "XeXeCent" ],
+		"name" : "XeXeCentHeaderInstall"
+	}
+}

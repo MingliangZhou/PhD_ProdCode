@@ -1,0 +1,107 @@
+#ifndef checkTrack_MyxAODAnalysis_H
+#define checkTrack_MyxAODAnalysis_H
+
+#include <EventLoop/Algorithm.h>
+
+// include files for using the trigger tools
+#include "TrigConfxAOD/xAODConfigTool.h"
+#include "TrigDecisionTool/TrigDecisionTool.h"
+
+#include "xAODRootAccess/Init.h"
+#include "xAODRootAccess/TEvent.h"
+
+#include "TH1.h"
+#include "TH2.h"
+#include "TProfile.h"
+#include "TFile.h"
+#include "TTree.h"
+
+class MyxAODAnalysis : public EL::Algorithm
+{
+    // put your configuration variables here as public variables.
+    // that way they can be set directly from CINT and python.
+    public:
+        // float cutValue;
+        enum{
+            NCENT=3, //0-30%, 30-70%, >70%
+            NPT=3, //0.5-1,1-2,>2
+        };
+
+        // trigger tools member variables
+        Trig::TrigDecisionTool *m_trigDecisionTool; //!
+        TrigConf::xAODConfigTool *m_trigConfigTool; //!
+
+        xAOD::TEvent *m_event;  //!
+
+        int m_eventCounter; //!
+        unsigned int RunNumber; //!
+        unsigned int eventID; //!
+
+        //std::map<std::string,bool*> m_trigger_chain; //!
+        //bool trigpool[1000]; //!
+
+        // std::vector<std::string> TrigList;
+        // bool m_use_trig;
+
+        TFile* fout; //!
+
+        TH2D* hd0_wrtPV[NPT+1][NCENT+1]; //!
+        //(2D histogram with other axis as pT)
+        TH2D* hz0_wrtPV_sin_theta[NPT+1][NCENT+1]; //!
+        // (2D histogram with other axis as pT)
+
+        TH2D* h_Hits_Pixel[NPT+1][NCENT+1]; //!
+        // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+        TH2D* h_Holes_Pixel[NPT+1][NCENT+1]; //!
+        // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+        TH2D* h_Hits_SCT[NPT+1][NCENT+1]; //!
+        // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+        TH2D* h_Holes_SCT[NPT+1][NCENT+1];  //!
+        // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+
+        TProfile* h1_Hits_Pixel[NPT+1][NCENT+1];//!
+        // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+        TProfile* h1_Holes_Pixel[NPT+1][NCENT+1]; //!
+        // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+        TProfile* h1_Hits_SCT[NPT+1][NCENT+1];  //!
+        // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+        TProfile* h1_Holes_SCT[NPT+1][NCENT+1];   //!
+        // Hits/Holes in Pixel and SCT in bins of 0.5 in Eta
+
+        TH1D* hntrk;//!
+        TH1D* hvtxz; //! 
+        TH1D* hnvtxz; //! 
+        TH1D* hpt[NCENT+1]; //!
+        // pT spectra
+        TH1D* hdN_deta[NPT+1][NCENT+1]; //!
+        //dN_trk/d_eta (pT>0.5GeV)
+        TH1D* hFcal_Et[NCENT+1]; //!
+        // FCal ET distributions
+        // variables that don't get filled at submission time should be
+        // protected from being send from the submission node to the worker
+        // node (done by the //!)
+    public:
+        // Tree *myTree; //!
+        // TH1 *myHist; //!
+
+
+
+        // this is a standard constructor
+        MyxAODAnalysis ();
+
+        // these are the functions inherited from Algorithm
+        virtual EL::StatusCode setupJob (EL::Job& job);
+        virtual EL::StatusCode fileExecute ();
+        virtual EL::StatusCode histInitialize ();
+        virtual EL::StatusCode changeInput (bool firstFile);
+        virtual EL::StatusCode initialize ();
+        virtual EL::StatusCode execute ();
+        virtual EL::StatusCode postExecute ();
+        virtual EL::StatusCode finalize ();
+        virtual EL::StatusCode histFinalize ();
+
+        // this is needed to distribute the algorithm to the workers
+        ClassDef(MyxAODAnalysis, 1);
+};
+
+#endif

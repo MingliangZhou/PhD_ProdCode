@@ -1,0 +1,40 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class HIEventShape_v1; }
+template <typename STORABLE> class DataLink;
+namespace std {  }
+namespace DataModel_detail { class NoBase; }
+namespace xAOD { class HIEventShape_v2; }
+template <typename T, typename BASE> class DataVector;
+
+[ libxAODHIEvent_Reflex.so ]
+# List of selected classes
+class DataLink<xAOD::HIEventShape_v1>
+class DataLink<xAOD::HIEventShape_v2>
+class DataVector<xAOD::HIEventShape_v1>
+class DataVector<xAOD::HIEventShape_v2>
+class ElementLink<DataVector<xAOD::HIEventShape_v1> >
+class ElementLink<DataVector<xAOD::HIEventShape_v2> >
+class ElementLink<xAOD::HIEventShapeContainer_v1>
+class ElementLink<xAOD::HIEventShapeContainer_v2>
+class vector<DataLink<xAOD::HIEventShape_v1> >
+class vector<DataLink<xAOD::HIEventShape_v2> >
+class vector<ElementLink<DataVector<xAOD::HIEventShape_v1> > >
+class vector<ElementLink<DataVector<xAOD::HIEventShape_v2> > >
+class vector<ElementLink<xAOD::HIEventShapeContainer_v1> >
+class vector<ElementLink<xAOD::HIEventShapeContainer_v2> >
+class vector<std::vector<ElementLink<xAOD::HIEventShapeContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::HIEventShapeContainer_v2> > >
+class vector<vector<ElementLink<DataVector<xAOD::HIEventShape_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::HIEventShape_v2> > > >
+class xAOD::HIEventShapeAuxContainer_v1
+class xAOD::HIEventShapeAuxContainer_v2
+class xAOD::HIEventShapeContainer_v1
+class xAOD::HIEventShapeContainer_v2
+class xAOD::HIEventShape_v1
+class xAOD::HIEventShape_v2
+header xAODHIEvent/versions/HIEventShapeAuxContainer_v1.h
+header xAODHIEvent/versions/HIEventShapeAuxContainer_v2.h
+header xAODHIEvent/versions/HIEventShape_v1.h
+header xAODHIEvent/versions/HIEventShape_v2.h
+# List of selected typedefs and outer classes

@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthAna/build/x86_64-slc6-gcc62-opt/include/AnaCumu"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthAna/build/x86_64-slc6-gcc62-opt/include/AnaCumu.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "AnaCumu" ],
+		"name" : "AnaCumuHeaderInstall"
+	}
+}

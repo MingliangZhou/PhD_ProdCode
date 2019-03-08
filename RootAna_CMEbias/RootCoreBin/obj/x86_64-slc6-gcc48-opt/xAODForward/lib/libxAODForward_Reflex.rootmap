@@ -1,0 +1,86 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class ALFAData_v1; }
+namespace xAOD { class ZdcModule_v1; }
+namespace xAOD { class MBTSModule_v1; }
+namespace xAOD { class ForwardEventInfo_v1; }
+namespace DataModel_detail { class NoBase; }
+namespace std {  }
+template <typename T, typename BASE> class DataVector;
+template <typename STORABLE> class DataLink;
+template <typename STORABLE> class ElementLink;
+namespace xAOD { class TriggerTower_v2; }
+
+[ libxAODForward_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::ALFAData_v1> >
+class DataLink<DataVector<xAOD::ForwardEventInfo_v1> >
+class DataLink<DataVector<xAOD::MBTSModule_v1> >
+class DataLink<DataVector<xAOD::ZdcModule_v1> >
+class DataLink<xAOD::ALFADataContainer_v1>
+class DataLink<xAOD::ForwardEventInfoContainer_v1>
+class DataLink<xAOD::MBTSModuleContainer_v1>
+class DataLink<xAOD::ZdcModuleContainer_v1>
+class DataVector<xAOD::ALFAData_v1>
+class DataVector<xAOD::ForwardEventInfo_v1>
+class DataVector<xAOD::MBTSModule_v1>
+class DataVector<xAOD::ZdcModule_v1>
+class ElementLink<DataVector<xAOD::ALFAData_v1> >
+class ElementLink<DataVector<xAOD::ForwardEventInfo_v1> >
+class ElementLink<DataVector<xAOD::MBTSModule_v1> >
+class ElementLink<DataVector<xAOD::TriggerTower_v2> >
+class ElementLink<DataVector<xAOD::ZdcModule_v1> >
+class ElementLink<xAOD::ALFADataContainer_v1>
+class ElementLink<xAOD::ForwardEventInfoContainer_v1>
+class ElementLink<xAOD::MBTSModuleContainer_v1>
+class ElementLink<xAOD::TriggerTowerContainer_v2>
+class ElementLink<xAOD::ZdcModuleContainer_v1>
+class vector<DataLink<DataVector<xAOD::ALFAData_v1> > >
+class vector<DataLink<DataVector<xAOD::ForwardEventInfo_v1> > >
+class vector<DataLink<DataVector<xAOD::MBTSModule_v1> > >
+class vector<DataLink<DataVector<xAOD::ZdcModule_v1> > >
+class vector<DataLink<xAOD::ALFADataContainer_v1> >
+class vector<DataLink<xAOD::ForwardEventInfoContainer_v1> >
+class vector<DataLink<xAOD::MBTSModuleContainer_v1> >
+class vector<DataLink<xAOD::ZdcModuleContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::ALFAData_v1> > >
+class vector<ElementLink<DataVector<xAOD::ForwardEventInfo_v1> > >
+class vector<ElementLink<DataVector<xAOD::MBTSModule_v1> > >
+class vector<ElementLink<DataVector<xAOD::TriggerTower_v2> > >
+class vector<ElementLink<DataVector<xAOD::ZdcModule_v1> > >
+class vector<ElementLink<xAOD::ALFADataContainer_v1> >
+class vector<ElementLink<xAOD::ForwardEventInfoContainer_v1> >
+class vector<ElementLink<xAOD::MBTSModuleContainer_v1> >
+class vector<ElementLink<xAOD::TriggerTowerContainer_v2> >
+class vector<ElementLink<xAOD::ZdcModuleContainer_v1> >
+class vector<std::vector<ElementLink<xAOD::ALFADataContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::ForwardEventInfoContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::MBTSModuleContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::ZdcModuleContainer_v1> > >
+class vector<std::vector<short> >
+class vector<vector<ElementLink<DataVector<xAOD::ALFAData_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::ForwardEventInfo_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::MBTSModule_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::ZdcModule_v1> > > >
+class vector<vector<short> >
+class xAOD::ALFADataAuxContainer_v1
+class xAOD::ALFADataContainer_v1
+class xAOD::ALFAData_v1
+class xAOD::ForwardEventInfoAuxContainer_v1
+class xAOD::ForwardEventInfoContainer_v1
+class xAOD::ForwardEventInfo_v1
+class xAOD::MBTSModuleAuxContainer_v1
+class xAOD::MBTSModuleContainer_v1
+class xAOD::MBTSModule_v1
+class xAOD::ZdcModuleAuxContainer_v1
+class xAOD::ZdcModuleContainer_v1
+class xAOD::ZdcModule_v1
+header xAODForward/versions/ALFADataAuxContainer_v1.h
+header xAODForward/versions/ALFAData_v1.h
+header xAODForward/versions/ForwardEventInfoAuxContainer_v1.h
+header xAODForward/versions/ForwardEventInfo_v1.h
+header xAODForward/versions/MBTSModuleAuxContainer_v1.h
+header xAODForward/versions/MBTSModule_v1.h
+header xAODForward/versions/ZdcModuleAuxContainer_v1.h
+header xAODForward/versions/ZdcModule_v1.h
+# List of selected typedefs and outer classes

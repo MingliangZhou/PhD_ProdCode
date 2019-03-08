@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthProd_XeXe5_2017/source/AthProd/src/components/AthProd_entries.cxx"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthProd_XeXe5_2017/source/AthProd/src/components/AthProd_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "AthProd" ],
+		"name" : "AthProd"
+	}
+}

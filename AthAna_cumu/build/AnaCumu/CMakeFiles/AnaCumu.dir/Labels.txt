@@ -1,0 +1,5 @@
+# Target labels
+ AnaCumu
+# Source files and their labels
+/afs/cern.ch/work/m/mizhou/AthAna/source/AnaCumu/src/components/AnaCumu_entries.cxx
+/afs/cern.ch/work/m/mizhou/AthAna/source/AnaCumu/src/components/AnaCumu_load.cxx

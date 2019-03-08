@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/XeXeCentRel21/source/XeXeCent/src/XeXeCentAlg.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "XeXeCent" ],
+		"name" : "XeXeCentLib"
+	}
+}

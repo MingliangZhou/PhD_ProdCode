@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/XeXeCentRel21/source/XeXeCent/src/components/XeXeCent_entries.cxx"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/XeXeCentRel21/source/XeXeCent/src/components/XeXeCent_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "XeXeCent" ],
+		"name" : "XeXeCent"
+	}
+}

@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/work/m/mizhou/AthProd_pp5_2017/source/AthProd/src/AthProdAlg.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "AthProd" ],
+		"name" : "AthProdLib"
+	}
+}

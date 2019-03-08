@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Edited By POOL -->
+<!DOCTYPE POOLFILECATALOG SYSTEM "InMemory">
+<POOLFILECATALOG>
+  <File ID="0D752580-F074-4548-AB8D-E0EAE370FD0B">
+    <physical>
+      <pfn filetype="ROOT_All" name="/afs/cern.ch/work/m/mizhou/INPUT_test/data17_XeXe5_MinBias.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="32ACDE11-2F52-F543-ABCD-63C5940FB837">
+    <physical>
+      <pfn filetype="ROOT_All" name="/afs/cern.ch/work/m/mizhou/INPUT_test/data15_PbPb5_MinBias_287321_cutLv3.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+</POOLFILECATALOG>

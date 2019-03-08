@@ -1,0 +1,398 @@
+mzhou@rftpexp.rhic.bnl.gov:
+mizhou@lxplus.cern.ch:
+mzhouat@atlasgw.bnl.gov:
+ssh -p 2270 mingliang@nuclear.chem.sunysb.edu
+/star/data05/scratch/nie/MZhou
+/usatlas/groups/bnl_local2/jiaj/mingliang
+
+4487 Billings Circle
+Santa Clara
+95054
+
+/eos/home-m/mizhou
+
+/afs/cern.ch/user/t/tbold/public/effComps
+https://gitlab.cern.ch/atlas-phys-hi/yellow_PUB_notes
+https://gitlab.cern.ch/jgrosseo/hllhc-wg5-smallsystems
+
+asetup AtlasProduction,20.1.4.3,gcc48,here
+asetup AtlasProduction,20.1.9.2,gcc48,here
+pathena testAthenaTrigESD_HLTMonitoring_test.py --inDS <> --outDS user.mizhou.HMT.valid.jly13.ver00 --nFilesPerJob=1 --skipScout
+nohup athena.py -c ‘fileList=[“”]’ testAthenaTrigESD_HLTMonitoring_test.py &
+
+rucio download - -nrandom 1 
+checkSG.py .root > containers.txt
+
+Truth Analysis
+lsetup ‘asetup 20.1.8.3,AtlasDerivation,gcc48,here’
+lsetup panda
+Reco_tf.py --inputEVNTFile fileName.root --outputDAODFile tutorial.pool.root --reductionConf TRUTH0
+pathena --trf "Reco_tf.py --inputEVNTFile %IN --outputDAODFile output.pool.root --reductionConf TRUTH0" --inDS mc15_13TeV.361203.Pythia8_A2_MSTW2008LO_ND_minbias.evgen.EVNT.e3639/ --outDS user.mizhou.PYTHIA8.Aug01.truth.ver00
+
+ls -d -1 $PWD/**/*
+du -sh ./*
+
+root [1] .> 1.txt
+Output will be saved in file 1.txt! ('>' to display on screen)
+root [2] .ls
+root [3] .>
+
+sudo /usr/local/mysql/support-files/mysql.server start
+sudo /usr/local/mysql/support-files/mysql.server stop
+mysql -u root -p
+SET sql_mode = '';
+
+
+svn co 
+rc version
+cmt checkout_pkg Trigger/TrigEvent/TrigInDetEvent-00-01-54
+cmt checkout_pkg InnerDetector/InDetRecEvent/InDetPrepRawData-02-00-22
+cmt checkout_pkg Tracking/TrkEvent/TrkPrepRawData-07-00-06
+
+Xe+Xe internal note
+svn+ssh://svn.cern.ch/reps/atlasphys-comm/Physics/HeavyIon/XeXeVn2017/XeXe2PCIntNote/trunk
+svn+ssh://svn.cern.ch/reps/atlasphys-comm/Physics/HeavyIon/XeXeVn2017/CombinedNote/trunk
+export PATH=/afs/cern.ch/sw/XML/TL2016/bin/x86_64-linux/:$PATH
+svn ps svn:mime-type application/octet-stream [new plots]
+
+hsi
+hsi cput -r folder     // upload the folder
+hsi cget -r folder     // download the folder
+
+ssh jjiastar@rcas6007
+Xenasa4!
+/star/data01/pwg/jjia/
+condor_release jjiastar
+cd $CVSROOT/event_gen/src/PHHijing/
+cvs co
+/afs/rhic.bnl.gov/star/users/jjiastar/WWW/
+https://www.star.bnl.gov/~jjiastar/
+
+no pileup
+valid3.119994.Pythia8_A2MSTW2008LO_minbias_inelastic.recon.AOD.e3099_s2579_r6534
+50ns
+valid2.119994.Pythia8_A2MSTW2008LO_minbias_inelastic.recon.AOD.e3099_s2578_r6538
+
+
+
+25ns
+valid2.119994.Pythia8_A2MSTW2008LO_minbias_inelastic.recon.AOD.e3099_s2578_r6532
+
+pileup
+HLT_TrigL2SiTrackFinder_FullScan_ZF_Only
+
+2017 13 TeV pp data
+data17_13TeV.00341294.physics_MinBias.recon.AOD.r10235
+data17_13TeV.00341312.physics_MinBias.recon.AOD.r10235
+data17_13TeV.00341419.physics_MinBias.recon.AOD.r10235
+data17_13TeV.00341534.physics_MinBias.recon.AOD.r10235
+data17_13TeV.00341615.physics_MinBias.recon.AOD.r10235
+data17_13TeV.00341649.physics_MinBias.recon.AOD.r10235 
+pathena jo.py --inDS data15_13TeV.00277025.physics_MinBias.merge.AOD.f624_m1486 --outDS user.mizhou.HMT.valid.Sep12.ver00 --nFilesPerJob=5 --extOutFile hist.root 
+Low-mu run in June
+data15_13TeV.00267358.physics_MinBias.merge.AOD.f597_m1441
+data15_13TeV.00267359.physics_MinBias.merge.AOD.f597_m1441
+data15_13TeV.00267360.physics_MinBias.merge.AOD.f597_m1441
+data15_13TeV.00267367.physics_MinBias.merge.AOD.f597_m1441
+data15_13TeV.00267385.physics_MinBias.merge.AOD.f597_m1441
+data15_13TeV.00267599.physics_MinBias.merge.AOD.f597_m1441
+data15_13TeV.00267358.physics_MinBias.merge.AOD.r6882_p2358/
+data15_13TeV.00267359.physics_MinBias.merge.AOD.r6882_p2358/
+
+Moderate-mu VdM run in August
+data15_13TeV.00277025.physics_MinBias.merge.AOD.f624_m1486
+
+Moderate-mu run in October
+data15_13TeV.00281662.express_express.merge.AOD.x354_m1504
+data15_13TeV.00281712.express_express.merge.AOD.x354_m1504
+data15_13TeV.00282455.express_express.merge.AOD.x354_m1504
+
+Place holder
+
+ROOT-Based Analysis
+lsetup ‘rcsetup Base, 2.4.33hi’ 
+rc find_packages
+rc compile
+rcsetup -r // check versions
+
+lsetup rcsetup
+root -l '$ROOTCOREDIR/scripts/load_packages.C' ‘testRun.cxx (“./output”)’
+root -l -b -q '$ROOTCOREDIR/scripts/load_packages.C' ‘testSubmit.cxx ("myGridJob")'
+
+Useful Triggers
+HLT_mb_sptrk
+L1_MBTS_1
+
+TotalEt_n : Int_t Number of ntuple rows.
+TotalEt_layer_eta : vector<float>
+TotalEt_layer_phi : vector<float>
+TotalEt_layer_sampling : vector<vector<float> >
+TotalEt_layer_sampling_calib : vector<vector<float> >
+
+
+New pp Data
+mu=0.02-0.6, b=22:   data15_5TeV.00286282.physics_MinBias.merge.AOD.f652_m1528
+mu=1.6, b=200:   data15_5TeV.00286328.physics_MinBias.merge.AOD.f652_m1528
+mu=1.6, b=800:   data15_5TeV.00286361.physics_MinBias.merge.AOD.f652_m1528
+mu=1.6, b=1300: data15_5TeV.00286364.physics_MinBias.merge.AOD.f652_m1528
+mu=1.6, b=1300: data15_5TeV.00286367.physics_MinBias.merge.AOD.f652_m1528
+mu=1.6, b=1300: data15_5TeV.00286411.physics_MinBias.merge.AOD.f652_m1533
+mu=1.6, b=1300: data15_5TeV.00286474.physics_MinBias.merge.AOD.f652_m1533
+
+data15_5TeV.00286282.physics_MinBias.recon.AOD.r7744/
+data15_5TeV.00286328.physics_MinBias.recon.AOD.r7744/
+data15_5TeV.00286361.physics_MinBias.recon.AOD.r7744/
+data15_5TeV.00286364.physics_MinBias.recon.AOD.r7744/
+data15_5TeV.00286367.physics_MinBias.recon.AOD.r7744/
+data15_5TeV.00286411.physics_MinBias.recon.AOD.r7744/
+data15_5TeV.00286474.physics_MinBias.recon.AOD.r7744/
+
+root://eosatlas//eos/atlas/atlastier0/tzero/prod/data15_hi/express_express/00286665/data15_hi.00286665.express_express.recon.AOD.x375/
+
+New PbPb Data
+data15_hi.00286665.physics_MinBias.merge.AOD.f655_m1533
+data15_hi.00286711.physics_MinBias.merge.AOD.f655_m1533
+data15_hi.00286717.physics_MinBias.merge.AOD.f655_m1533
+data15_hi.00286748.physics_MinBias.merge.AOD.f657_m1533
+data15_hi.00287281.physics_MinBias.merge.AOD.f657_m1533
+
+New PbPb MBoverlay
+data15_hi.00287321.physics_MinBiasOverlay.merge.AOD.f657_m1533
+data15_hi.00287330.physics_MinBiasOverlay.merge.AOD.f657_m1533
+data15_hi.00287334.physics_MinBiasOverlay.merge.AOD.f657_m1533
+data15_hi.00287378.physics_MinBiasOverlay.merge.AOD.f657_m1533
+data15_hi.00287380.physics_MinBiasOverlay.merge.AOD.f657_m1533
+data15_hi.00287382.physics_MinBiasOverlay.merge.AOD.f657_m1533
+data15_hi.00287560.physics_MinBiasOverlay.merge.AOD.f657_m1533
+data15_hi.00287594.physics_MinBiasOverlay.merge.AOD.f657_m1533
+data15_hi.00287632.physics_MinBiasOverlay.merge.AOD.f657_m1533
+data15_hi.00287706.physics_MinBiasOverlay.merge.AOD.f657_m1533
+data15_hi.00287728.physics_MinBiasOverlay.merge.AOD.f657_m1533
+data15_hi.00287827.physics_MinBiasOverlay.merge.AOD.f657_m1533
+
+New PbPb MC
+mc15_5TeV.420000.Hijing_PbPb_5p02TeV_MinBias_Flow_JJFV6.recon.AOD.e3754_s2633_r7161/
+
+2015 5.02TeV debug stream
+data15_hi.00286711.debugrec_hlt.merge.AOD.g49_f655_m1533
+data15_hi.00286717.debugrec_hlt.merge.AOD.g49_f655_m1533
+data15_hi.00286748.debugrec_hlt.merge.AOD.g49_f657_m1533
+data15_hi.00287281.debugrec_hlt.merge.AOD.g49_f657_m1533
+data15_hi.00287330.debugrec_hlt.merge.AOD.g49_f657_m1533
+data15_hi.00287334.debugrec_hlt.merge.AOD.g49_f657_m1533
+data15_hi.00287378.debugrec_hlt.merge.AOD.g49_f657_m1533
+data15_hi.00287382.debugrec_hlt.merge.AOD.g49_f657_m1533
+data15_hi.00287632.debugrec_hlt.merge.AOD.g49_f657_m1533
+data15_hi.00287706.debugrec_hlt.merge.AOD.g49_f657_m1533
+data15_hi.00287728.debugrec_hlt.merge.AOD.g49_f657_m1533
+data15_hi.00287827.debugrec_hlt.merge.AOD.g49_f657_m1533
+
+Hard Probes
+data15_hi.00286748.physics_HardProbes.merge.AOD.f657_m1533
+data15_hi.00286748.physics_HardProbes.recon.AOD.r7827_tid08059915_00
+
+717.01: jets pT
+728.00: MBTS in new run
+748.02: MBTS in old run
+748.03: Hits for strange events
+
+New 5TeV PbPb, reprocessed 20.7
+*data15_hi.00286665.physics_MinBias.recon.AOD.r7874/
+data15_hi.00286711.physics_MinBias.recon.AOD.r7874/
+data15_hi.00286717.physics_MinBias.recon.AOD.r7874/
+data15_hi.00286748.physics_MinBias.recon.AOD.r7874/
+data15_hi.00286767.physics_MinBias.recon.AOD.r7874/
+data15_hi.00286834.physics_MinBias.recon.AOD.r7874/
+data15_hi.00286854.physics_MinBias.recon.AOD.r7874/
+*data15_hi.00286908.physics_MinBias.recon.AOD.r7874/
+*data15_hi.00286967.physics_MinBias.recon.AOD.r7874/
+data15_hi.00286990.physics_MinBias.recon.AOD.r7874/
+data15_hi.00286995.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287038.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287044.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287068.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287222.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287224.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287259.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287270.physics_MinBias.recon.AOD.r7874/
+*data15_hi.00287281.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287321.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287330.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287334.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287378.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287380.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287382.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287560.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287594.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287632.physics_MinBias.recon.AOD.r7874/
+*data15_hi.00287706.physics_MinBias.recon.AOD.r7874/
+*data15_hi.00287728.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287827.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287843.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287866.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287924.physics_MinBias.recon.AOD.r7874/
+data15_hi.00287931.physics_MinBias.recon.AOD.r7874/
+
+PYTHIA A2 tune
+mc15_13TeV.361203.Pythia8_A2_MSTW2008LO_ND_minbias.merge.AOD.e3639_a782_a787_r6264/ 
+mc15_13TeV.361214.Pythia8_A2MSTW2008LO_minbias_NDnch120.merge.AOD.e3908_a782_a787_r6264/ 
+mc15_13TeV.361215.Pythia8_A2MSTW2008LO_minbias_NDnch160.merge.AOD.e3908_a782_a787_r6264/ 
+mc15_13TeV.361216.Pythia8_A2MSTW2008LO_minbias_NDnch200.merge.AOD.e3908_a782_a787_r6264/ 
+evgen.EVNT
+mc15_13TeV.361203.Pythia8_A2_MSTW2008LO_ND_minbias.evgen.EVNT.e3639/
+mc15_13TeV.361214.Pythia8_A2MSTW2008LO_minbias_NDnch120.evgen.EVNT.e3908/
+mc15_13TeV.361215.Pythia8_A2MSTW2008LO_minbias_NDnch160.evgen.EVNT.e3908/
+mc15_13TeV.361216.Pythia8_A2MSTW2008LO_minbias_NDnch200.evgen.EVNT.e3908/
+
+EPOS
+mc15_13TeV.361224.Epos_minbias_inelastic.merge.AOD.e3908_a782_s2183_a787_r6264/
+mc15_13TeV:mc15_13TeV.361224.Epos_minbias_inelastic.evgen.EVNT.e3908/
+
+data15_hi.002*.debugrec_hlt.recon.AOD.g*_r*/
+
+AFP runs
+data16_13TeV.00299390.physics_MinBias.recon.AOD.r8358/
+data16_13TeV.00300287.physics_MinBias.recon.AOD.r8358/
+data16_13TeV.00305359.physics_MinBias.recon.AOD.r8358/
+data16_13TeV.00305359.physics_MinBias.recon.AOD.r8370/
+
+enum VertexType 
+{
+NoVtx   = 0, 		///< Dummy vertex. TrackParticle was not used in vertex fit
+PriVtx  = 1, 		///< Primary vertex
+SecVtx  = 2, 		///< Secondary vertex
+PileUp  = 3, 		///< Pile-up vertex
+ConvVtx = 4, 		///< Conversion vertex
+V0Vtx   = 5, 		///< Vertex from V0 decay
+KinkVtx = 6, 		///< Kink vertex
+NotSpecified = -99 	///< Default value, no explicit type set
+}
+
+svn co svn+ssh://svn.cern.ch/reps/atlasoff/Event/xAOD/xAODTrigger/tags/xAODTrigger-00-00-52 xAODTrigger
+
+with beam spot constraint
+data16_13TeV.00299390.physics_MinBias_lbcustom.merge.AOD.r8220_p2645_tid09006917_00
+without beam spot constraint
+data16_13TeV.00299390.physics_MinBias_lbcustom.merge.AOD.r8219_p2645_tid09003617_00
+
+cutLevel=3
+data15_hi.00286748.physics_MinBias.recon.AOD.r7827/
+data15_hi.00287594.physics_MinBias.recon.AOD.r7865/
+data15_hi.00287334.physics_MinBias.recon.AOD.r7865/
+data15_hi.00287281.physics_MinBias.recon.AOD.r7865/
+data15_hi.00287330.physics_MinBias.recon.AOD.r7865/
+data15_hi.00287321.physics_MinBias.recon.AOD.r7865/
+data15_hi.00287380.physics_MinBias.recon.AOD.r7865/
+data15_hi.00287560.physics_MinBias.recon.AOD.r7865/
+
+p+Pb 5 TeV reprocessing
+data16_13TeV.00218048.physics_MinBiasOverlay.recon.AOD.r8520_r8529/
+data16_13TeV.00218048.physics_MinBiasOverlay.recon.AOD.r8581_r8583/
+data16_13TeV.00218048.physics_MinBiasOverlay.recon.AOD.r8598_r8599_tid09601463_00
+data16_13TeV.00218048.express_express.recon.AOD.r8684_r8685/
+data16_13TeV.00218048.physics_MinBiasOverlay.merge.AOD.r8581_r8583_p2838/
+data13_hip.00218048.physics_HardProbes.merge.AOD.f761_m1715
+
+2016 new pp 13 TeV
+data16_13TeV.00299390.physics_MinBias.recon.AOD.r8358/
+data16_13TeV.00300287.physics_MinBias.recon.AOD.r8358/
+data16_13TeV.00305359.physics_MinBias.recon.AOD.r8489/
+data16_13TeV.00309314.physics_MinBias.recon.AOD.r8576/
+data16_13TeV.00309346.physics_MinBias.recon.AOD.r8576/
+data16_13TeV.00310216.physics_MinBias.recon.AOD.r8600/
+
+2016 new pPb 5 TeV express
+data16_hip5TeV.00312649.express_express.recon.AOD.x477_m1725
+
+2016 new pPb 5 TeV Main
+data16_hip5TeV.00312649.physics_Main.recon.AOD.f770_m1730
+data16_hip5TeV.00312796.physics_Main.recon.AOD.f772_m1730
+data16_hip5TeV.00312799.physics_Main.recon.AOD.f772_m1730
+data16_hip5TeV.00312837.physics_Main.recon.AOD.f772_m1730
+data16_hip5TeV.00312854.physics_Main.recon.AOD.f772_m1730
+—
+data16_hip5TeV.00312937.physics_Main.recon.AOD.f772_m1730
+data16_hip5TeV.00312945.physics_Main.recon.AOD.f774_m1736
+data16_hip5TeV.00312968.physics_Main.recon.AOD.f774_m1736
+data16_hip5TeV.00314199.physics_Main.recon.AOD.f781_m1741
+
+2016 new pPb 8 TeV Main
+data16_hip8TeV.00313063.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313067.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313100.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313107.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313136.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313187.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313259.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313285.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313295.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313333.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313435.physics_Main.recon.AOD.f774_m1736
+—
+beam reversal
+data16_hip8TeV.00313572.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313574.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313575.physics_Main.recon.AOD.f774_m1736
+data16_hip8TeV.00313603.physics_Main.recon.AOD.f781_m1741
+data16_hip8TeV.00313629.physics_Main.recon.AOD.f781_m1741
+data16_hip8TeV.00313630.physics_Main.recon.AOD.f781_m1741
+data16_hip8TeV.00313688.physics_Main.recon.AOD.f781_m1741
+data16_hip8TeV.00313695.physics_Main.recon.AOD.f781_m1741
+data16_hip8TeV.00313833.physics_Main.recon.AOD.f781_m1741
+data16_hip8TeV.00313878.physics_Main.recon.AOD.f781_m1741
+data16_hip8TeV.00313929.physics_Main.recon.AOD.f781_m1741
+data16_hip8TeV.00313935.physics_Main.recon.AOD.f781_m1741
+
+8 TeV p+Pb MC
+mc15_valid.420111.Hijing_pPb_Flow_8TeV.recon.AOD.e5328_s2862_s2921_r8377
+mc15_valid.420111.Hijing_pPb_Flow_8TeV.recon.AOD.e5328_s2890_s2921_r8377
+mc15_valid.420111.Hijing_pPb_Flow_8TeV.recon.AOD.e5328_s2891_s2921_r8377
+mc15_valid.420111.Hijing_pPb_Flow_8TeV.recon.AOD.e5328_s2892_s2921_r8377
+mc15_valid.420111.Hijing_pPb_Flow_8TeV.recon.AOD.e5328_s2893_s2921_r8377
+—
+mc15_valid.420113.Hijing_Pbp_Flow_8TeV.recon.AOD.e5328_s2862_s2921_r8377
+mc15_valid.420113.Hijing_Pbp_Flow_8TeV.recon.AOD.e5328_s2890_s2921_r8377
+mc15_valid.420113.Hijing_Pbp_Flow_8TeV.recon.AOD.e5328_s2891_s2921_r8377
+mc15_valid.420113.Hijing_Pbp_Flow_8TeV.recon.AOD.e5328_s2892_s2921_r8377
+mc15_valid.420113.Hijing_Pbp_Flow_8TeV.recon.AOD.e5328_s2893_s2921_r8377
+
+2010 peripheral 2.76 TeV Pb+Pb
+data10_hi.00169566.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169223.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00170432.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00170482.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00170082.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00170080.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169226.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00168759.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169961.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169175.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169964.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169567.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00170004.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00170016.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169864.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169270.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00170459.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169693.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169564.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169045.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00168726.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00170015.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169206.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00170467.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00170002.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169783.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169648.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169751.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169627.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00168665.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169927.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169207.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169136.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00170398.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169966.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169224.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169839.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169750.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729
+data10_hi.00169765.physics_bulk.merge.NTUP_HI.r5703_p1747_r5500_p1729

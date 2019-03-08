@@ -1,0 +1,5 @@
+# Target labels
+ XeXeCent
+# Source files and their labels
+/afs/cern.ch/work/m/mizhou/XeXeCentRel21/source/XeXeCent/src/components/XeXeCent_entries.cxx
+/afs/cern.ch/work/m/mizhou/XeXeCentRel21/source/XeXeCent/src/components/XeXeCent_load.cxx
